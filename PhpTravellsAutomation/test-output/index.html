@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,6 +103,16 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.CarBookingPage" hash-for-method="CarBookingpage(Manchester, 11/09/2019, 12/09/2019)">CarBookingpage(Manchester, 11/09/2019, 12/09/2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.CarTwoBooking" hash-for-method="carTwoBooking(Nile Egypt, 12/10/2019,  &#039;13/10/2019)">carTwoBooking(Nile Egypt, 12/10/2019,  '13/10/2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.CarBookPayNow" hash-for-method="carTwoBookingpaynow(Mohit, Jaiswal, 1234567892, 900)">carTwoBookingpaynow(Mohit, Jaiswal, 1234567892, 900)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -134,6 +144,39 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">com.phptravells.CarTwoBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carTwoBooking(Nile Egypt, 12/10/2019,  &#039;13/10/2019)">
+                  </a> <!-- carTwoBooking(Nile Egypt, 12/10/2019,  '13/10/2019) -->
+                  <span class="method-name">carTwoBooking</span>
+                  <span class="parameters">(Nile Egypt, 12/10/2019,  '13/10/2019)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=77.0.3865.75)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:511)
+	at com.phptravells.CarTwoBooking.carTwoBooking(CarTwoBooking.java:47)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">com.phptravells.CarBookingPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -143,16 +186,49 @@
                   </a> <!-- CarBookingpage(Manchester, 11/09/2019, 12/09/2019) -->
                   <span class="method-name">CarBookingpage</span>
                   <span class="parameters">(Manchester, 11/09/2019, 12/09/2019)</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[@class=&quot;select2-chosen&quot;])[2] because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//span[@class=&quot;select2-chosen&quot;])[2]&apos; is not a valid XPath expression.
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
 System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f97ec4f2d6f3b03faf4b697d1b7d35d3
-*** Element info: {Using=xpath, value=//span[@class=&quot;select2-chosen&quot;])[2]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:173)
+	at com.phptravells.CarBookingPage.CarBookingpage(CarBookingPage.java:55)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.phptravells.CarBookPayNow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carTwoBookingpaynow(Mohit, Jaiswal, 1234567892, 900)">
+                  </a> <!-- carTwoBookingpaynow(Mohit, Jaiswal, 1234567892, 900) -->
+                  <span class="method-name">carTwoBookingpaynow</span>
+                  <span class="parameters">(Mohit, Jaiswal, 1234567892, 900)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=77.0.3865.75)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
+*** Element info: {Using=xpath, value=(//button[text()=&apos;Pay Now&apos;])[1]}
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -167,7 +243,7 @@ Session ID: f97ec4f2d6f3b03faf4b697d1b7d35d3
 	at com.phptravells.helper.CommonUtility$1.apply(CommonUtility.java:1)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)
 	at com.phptravells.helper.CommonUtility.clickElement(CommonUtility.java:31)
-	at com.phptravells.CarBookingPage.CarBookingpage(CarBookingPage.java:20)
+	at com.phptravells.CarBookPayNow.carTwoBookingpaynow(CarBookPayNow.java:22)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -204,6 +280,8 @@ Session ID: f97ec4f2d6f3b03faf4b697d1b7d35d3
     &lt;classes&gt;
       &lt;class name=&quot;com.phptravells.LoginPage&quot;/&gt;
       &lt;class name=&quot;com.phptravells.CarBookingPage&quot;/&gt;
+      &lt;class name=&quot;com.phptravells.CarTwoBooking&quot;/&gt;
+      &lt;class name=&quot;com.phptravells.CarBookPayNow&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -217,7 +295,7 @@ Session ID: f97ec4f2d6f3b03faf4b697d1b7d35d3
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -243,20 +321,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'homePage')
-data.setCell(0, 2, 'com.phptravells.LoginPage')
-data.setCell(0, 3, 37091);
+data.setCell(0, 1, 'carTwoBooking')
+data.setCell(0, 2, 'com.phptravells.CarTwoBooking')
+data.setCell(0, 3, 31366);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'CarBookingpage')
 data.setCell(1, 2, 'com.phptravells.CarBookingPage')
-data.setCell(1, 3, 175);
+data.setCell(1, 3, 23134);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'carTwoBookingpaynow')
+data.setCell(2, 2, 'com.phptravells.CarBookPayNow')
+data.setCell(2, 3, 14146);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'homePage')
+data.setCell(3, 2, 'com.phptravells.LoginPage')
+data.setCell(3, 3, 7750);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -271,11 +357,25 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">com.phptravells.CarTwoBooking</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">configSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">com.phptravells.CarBookingPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">configSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.phptravells.CarBookPayNow</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">configSetup</span>
                 <br/>
@@ -296,7 +396,7 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">homePage( user@phptravels.com, demouser)</span>
-                <span class="method-start">26900 ms</span>
+                <span class="method-start">17881 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -305,7 +405,25 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">CarBookingpage(Manchester, 11/09/2019, 12/09/2019)</span>
-                <span class="method-start">64119 ms</span>
+                <span class="method-start">25751 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phptravells.CarTwoBooking</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">carTwoBooking(Nile Egypt, 12/10/2019,  '13/10/2019)</span>
+                <span class="method-start">49033 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phptravells.CarBookPayNow</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">carTwoBookingpaynow(Mohit, Jaiswal, 1234567892, 900)</span>
+                <span class="method-start">80438 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

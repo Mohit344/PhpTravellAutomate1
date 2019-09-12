@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 11 20:11:02 IST 2019</td>
+<td>Started on:</td><td>Thu Sep 12 17:52:32 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13146 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25612 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.phptravells.CarBookingPage.CarBookingpage()'><b>CarBookingpage</b><br>Test class: com.phptravells.CarBookingPage<br>Parameters: Manchester, 11/09/2019, 12/09/2019</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=76.0.3809.132)
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.75)
 Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
 System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ec84bf061ddae27adff471057e0356
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56048}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3aa33c7607654aab00426c9527494aab
+*** Element info: {Using=xpath, value=//*[@id=&quot;select2-drop&quot;]/div/input}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -93,13 +95,15 @@ Session ID: e1ec84bf061ddae27adff471057e0356
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
-	at com.phptravells.helper.CommonUtility$3.apply(CommonUtility.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at com.phptravells.helper.CommonUtility$3.apply(CommonUtility.java:81)
 	at com.phptravells.helper.CommonUtility$3.apply(CommonUtility.java:1)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)
 	at com.phptravells.helper.CommonUtility.clickAndSendText(CommonUtility.java:79)
-	at com.phptravells.CarBookingPage.CarBookingpage(CarBookingPage.java:20)
+	at com.phptravells.CarBookingPage.CarBookingpage(CarBookingPage.java:23)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -125,14 +129,16 @@ Session ID: e1ec84bf061ddae27adff471057e0356
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1201004240", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1201004240'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=76.0.3809.132)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1123236701", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1123236701'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.75)
 Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
 System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e1ec84bf061ddae27adff471057e0356
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56048}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3aa33c7607654aab00426c9527494aab
+*** Element info: {Using=xpath, value=//*[@id=&quot;select2-drop&quot;]/div/input}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -143,13 +149,15 @@ Session ID: e1ec84bf061ddae27adff471057e0356
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
-	at com.phptravells.helper.CommonUtility$3.apply(CommonUtility.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at com.phptravells.helper.CommonUtility$3.apply(CommonUtility.java:81)
 	at com.phptravells.helper.CommonUtility$3.apply(CommonUtility.java:1)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)
 	at com.phptravells.helper.CommonUtility.clickAndSendText(CommonUtility.java:79)
-	at com.phptravells.CarBookingPage.CarBookingpage(CarBookingPage.java:20)
+	at com.phptravells.CarBookingPage.CarBookingpage(CarBookingPage.java:23)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -176,7 +184,7 @@ Session ID: e1ec84bf061ddae27adff471057e0356
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>11</td>
+<td>23</td>
 <td>com.phptravells.CarBookingPage@4883b407</td></tr>
 </table><p>
 </body>

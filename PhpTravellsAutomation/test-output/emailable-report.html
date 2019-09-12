@@ -9,20 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">39,541</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">3</td><td class="num">78,026</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.phptravells.CarBookingPage</td><td><a href="#m0">CarBookingpage</a></td><td rowspan="1">1568215557194</td><td rowspan="1">175</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.phptravells.LoginPage</td><td><a href="#m1">homePage</a></td><td rowspan="1">1568215519975</td><td rowspan="1">37091</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.phptravells.CarBookPayNow</td><td><a href="#m0">carTwoBookingpaynow</a></td><td rowspan="1">1568292352437</td><td rowspan="1">14146</td></tr><tr class="failedodd"><td rowspan="1">com.phptravells.CarBookingPage</td><td><a href="#m1">CarBookingpage</a></td><td rowspan="1">1568292297750</td><td rowspan="1">23134</td></tr><tr class="failedeven"><td rowspan="1">com.phptravells.CarTwoBooking</td><td><a href="#m2">carTwoBooking</a></td><td rowspan="1">1568292321032</td><td rowspan="1">31366</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.phptravells.LoginPage</td><td><a href="#m3">homePage</a></td><td rowspan="1">1568292289880</td><td rowspan="1">7750</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.phptravells.CarBookingPage#CarBookingpage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Manchester</td><td>11/09/2019</td><td>12/09/2019</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[@class=&quot;select2-chosen&quot;])[2] because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//span[@class=&quot;select2-chosen&quot;])[2]&apos; is not a valid XPath expression.
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+<h2>Test</h2><h3 id="m0">com.phptravells.CarBookPayNow#carTwoBookingpaynow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Mohit</td><td>Jaiswal</td><td>1234567892</td><td>900</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=77.0.3865.75)
 Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
 System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f97ec4f2d6f3b03faf4b697d1b7d35d3
-*** Element info: {Using=xpath, value=//span[@class=&quot;select2-chosen&quot;])[2]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
+*** Element info: {Using=xpath, value=(//button[text()=&apos;Pay Now&apos;])[1]}
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -37,8 +35,42 @@ Session ID: f97ec4f2d6f3b03faf4b697d1b7d35d3
 	at com.phptravells.helper.CommonUtility$1.apply(CommonUtility.java:1)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)
 	at com.phptravells.helper.CommonUtility.clickElement(CommonUtility.java:31)
-	at com.phptravells.CarBookingPage.CarBookingpage(CarBookingPage.java:20)
+	at com.phptravells.CarBookPayNow.carTwoBookingpaynow(CarBookPayNow.java:22)
 ... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.phptravells.LoginPage#homePage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td> user@phptravels.com</td><td>demouser</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.phptravells.CarBookingPage#CarBookingpage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Manchester</td><td>11/09/2019</td><td>12/09/2019</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:173)
+	at com.phptravells.CarBookingPage.CarBookingpage(CarBookingPage.java:55)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.phptravells.CarTwoBooking#carTwoBooking</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Nile Egypt</td><td>12/10/2019</td><td> &apos;13/10/2019</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=77.0.3865.75)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:511)
+	at com.phptravells.CarTwoBooking.carTwoBooking(CarTwoBooking.java:47)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.phptravells.LoginPage#homePage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td> user@phptravels.com</td><td>demouser</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -8,8 +8,8 @@ import java.io.IOException;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ReadExcelFile {
-	XSSFWorkbook workbook;
-	XSSFSheet sheet1;
+	static XSSFWorkbook workbook;
+	static XSSFSheet sheet1;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ public class ReadExcelFile {
 		}
 	}
 
-	public String getData(int index, int rowNum, int cellNum) {
+	public static String getData(int index, int rowNum, int cellNum) {
 
 		sheet1 = workbook.getSheetAt(index);
 		String data = sheet1.getRow(rowNum).getCell(cellNum).getStringCellValue();
