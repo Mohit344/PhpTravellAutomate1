@@ -13,7 +13,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeSuite;
 
 public class Driver_Class {
-	
+
 	static public WebDriver driver;
 	/**
 	 *switch case is created for the browsers-chrome,firefox.
@@ -22,7 +22,7 @@ public class Driver_Class {
 
 	@BeforeSuite
 	public void configSetup() throws IOException {
-		
+
 		File file = new File("./src/test/resources/Testdata/phptravell_config");
 		Properties promote = property_return(file);
 		switch (promote.getProperty("webdrivername")) {
@@ -38,8 +38,8 @@ public class Driver_Class {
 			System.setProperty("webdriver.ie.driver","./libs/IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 			break;
-			
-			
+
+
 		}
 		driver.get(promote.getProperty("url"));
 		driver.manage().window().maximize();
@@ -47,7 +47,7 @@ public class Driver_Class {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 	}
-	
+
 	/**
 	 * method-property_return
 	 * @param file

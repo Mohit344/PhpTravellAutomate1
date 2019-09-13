@@ -6,7 +6,11 @@ import java.util.Properties;
 import com.phptravell.util.ReadPropertiesFile;
 
 
-
+/**
+ * Find locator class
+ * @author Mohit.Jaiswal
+ *
+ */
 public class FindLocator {
 
 	

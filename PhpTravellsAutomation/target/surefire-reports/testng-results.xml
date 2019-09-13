@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80353" started-at="2019-09-13T20:36:25 IST" finished-at="2019-09-13T20:37:45 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="80353" started-at="2019-09-13T20:36:25 IST" finished-at="2019-09-13T20:37:45 IST">
+      <class name="com.phptravells.CarTwoBooking">
+        <test-method status="PASS" signature="carTwoBooking(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravells.CarTwoBooking@6e06451e]" name="carTwoBooking" duration-ms="26016" started-at="2019-09-13T20:37:03 IST" data-provider="CartwoBooking" finished-at="2019-09-13T20:37:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nile Egypt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12/10/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13/10/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carTwoBooking -->
+      </class> <!-- com.phptravells.CarTwoBooking -->
+      <class name="com.phptravells.CarBookPayNow">
+        <test-method status="PASS" signature="carTwoBookingPayNow(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.phptravells.CarBookPayNow@59494225]" name="carTwoBookingPayNow" duration-ms="14708" started-at="2019-09-13T20:37:29 IST" data-provider="CartwoBookingpaynow" finished-at="2019-09-13T20:37:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jaiswal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567892]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[900]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carTwoBookingPayNow -->
+        <test-method status="PASS" signature="quitDown()[pri:0, instance:com.phptravells.CarBookPayNow@59494225]" name="quitDown" is-config="true" duration-ms="1527" started-at="2019-09-13T20:37:43 IST" finished-at="2019-09-13T20:37:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDown -->
+      </class> <!-- com.phptravells.CarBookPayNow -->
+      <class name="com.phptravells.CarFirstBookingPayArrival">
+        <test-method status="PASS" signature="carBookinPayArrival(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.phptravells.CarFirstBookingPayArrival@72d818d1]" name="carBookinPayArrival" duration-ms="28250" started-at="2019-09-13T20:36:34 IST" data-provider="CarBooking" finished-at="2019-09-13T20:37:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manchester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21/10/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31/10/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carBookinPayArrival -->
+      </class> <!-- com.phptravells.CarFirstBookingPayArrival -->
+      <class name="com.phptravells.LoginPage">
+        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.phptravells.LoginPage@27c20538]" name="configSetup" is-config="true" duration-ms="20008" started-at="2019-09-13T20:36:05 IST" finished-at="2019-09-13T20:36:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSetup -->
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String)[pri:1, instance:com.phptravells.LoginPage@27c20538]" name="loginPage" duration-ms="8105" started-at="2019-09-13T20:36:26 IST" data-provider="logininput" finished-at="2019-09-13T20:36:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@phptravels.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demouser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+      </class> <!-- com.phptravells.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

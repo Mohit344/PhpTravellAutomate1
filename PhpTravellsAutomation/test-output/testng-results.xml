@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="3" total="7" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="78026" started-at="2019-09-12T12:44:48Z" finished-at="2019-09-12T12:46:06Z">
+  <suite name="Suite" duration-ms="75794" started-at="2019-09-13T14:50:00Z" finished-at="2019-09-13T14:51:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="78026" started-at="2019-09-12T12:44:48Z" finished-at="2019-09-12T12:46:06Z">
+    <test name="Test" duration-ms="75794" started-at="2019-09-13T14:50:00Z" finished-at="2019-09-13T14:51:16Z">
       <class name="com.phptravells.CarTwoBooking">
-        <test-method status="FAIL" signature="carTwoBooking(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravells.CarTwoBooking@5442a311]" name="carTwoBooking" duration-ms="31366" started-at="2019-09-12T12:45:21Z" data-provider="CartwoBooking" finished-at="2019-09-12T12:45:52Z">
+        <test-method status="PASS" signature="carTwoBooking(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravells.CarTwoBooking@239963d8]" name="carTwoBooking" duration-ms="24866" started-at="2019-09-13T14:50:36Z" data-provider="CartwoBooking" finished-at="2019-09-13T14:51:01Z">
           <params>
             <param index="0">
               <value>
@@ -21,74 +21,16 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[ '13/10/2019]]>
+                <![CDATA[13/10/2019]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=77.0.3865.75)
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINLT-065', ip: '55.55.54.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=77.0.3865.75)
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINLT-065', ip: '55.55.54.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:511)
-at com.phptravells.CarTwoBooking.carTwoBooking(CarTwoBooking.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carTwoBooking -->
       </class> <!-- com.phptravells.CarTwoBooking -->
       <class name="com.phptravells.CarBookPayNow">
-        <test-method status="FAIL" signature="carTwoBookingpaynow(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.phptravells.CarBookPayNow@548e7350]" name="carTwoBookingpaynow" duration-ms="14146" started-at="2019-09-12T12:45:52Z" data-provider="CartwoBookingpaynow" finished-at="2019-09-12T12:46:06Z">
+        <test-method status="PASS" signature="carTwoBookingPayNow(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.phptravells.CarBookPayNow@3abbfa04]" name="carTwoBookingPayNow" duration-ms="13139" started-at="2019-09-13T14:51:01Z" data-provider="CartwoBookingpaynow" finished-at="2019-09-13T14:51:15Z">
           <params>
             <param index="0">
               <value>
@@ -111,79 +53,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=77.0.3865.75)
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINLT-065', ip: '55.55.54.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
-*** Element info: {Using=xpath, value=(//button[text()='Pay Now'])[1]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=77.0.3865.75)
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINLT-065', ip: '55.55.54.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
-*** Element info: {Using=xpath, value=(//button[text()='Pay Now'])[1]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-at com.phptravells.helper.CommonUtility$1.apply(CommonUtility.java:33)
-at com.phptravells.helper.CommonUtility$1.apply(CommonUtility.java:1)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)
-at com.phptravells.helper.CommonUtility.clickElement(CommonUtility.java:31)
-at com.phptravells.CarBookPayNow.carTwoBookingpaynow(CarBookPayNow.java:22)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carTwoBookingpaynow -->
+        </test-method> <!-- carTwoBookingPayNow -->
+        <test-method status="PASS" signature="quitDown()[pri:0, instance:com.phptravells.CarBookPayNow@3abbfa04]" name="quitDown" is-config="true" duration-ms="1210" started-at="2019-09-13T14:51:15Z" finished-at="2019-09-13T14:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDown -->
       </class> <!-- com.phptravells.CarBookPayNow -->
-      <class name="com.phptravells.CarBookingPage">
-        <test-method status="FAIL" signature="CarBookingpage(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.phptravells.CarBookingPage@53b32d7]" name="CarBookingpage" duration-ms="23134" started-at="2019-09-12T12:44:57Z" data-provider="CarBooking" finished-at="2019-09-12T12:45:20Z">
+      <class name="com.phptravells.CarFirstBookingPayArrival">
+        <test-method status="PASS" signature="carBookinPayArrival(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.phptravells.CarFirstBookingPayArrival@13deb50e]" name="carBookinPayArrival" duration-ms="26240" started-at="2019-09-13T14:50:10Z" data-provider="CarBooking" finished-at="2019-09-13T14:50:36Z">
           <params>
             <param index="0">
               <value>
@@ -192,90 +71,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[11/09/2019]]>
+                <![CDATA[21/10/2019]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[12/09/2019]]>
+                <![CDATA[31/10/2019]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=77.0.3865.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINLT-065', ip: '55.55.54.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=77.0.3865.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINLT-065', ip: '55.55.54.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:173)
-at com.phptravells.CarBookingPage.CarBookingpage(CarBookingPage.java:55)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CarBookingpage -->
-      </class> <!-- com.phptravells.CarBookingPage -->
+        </test-method> <!-- carBookinPayArrival -->
+      </class> <!-- com.phptravells.CarFirstBookingPayArrival -->
       <class name="com.phptravells.LoginPage">
-        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.phptravells.LoginPage@343f4d3d]" name="configSetup" is-config="true" duration-ms="16566" started-at="2019-09-12T12:44:31Z" finished-at="2019-09-12T12:44:48Z">
+        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.phptravells.LoginPage@f6c48ac]" name="configSetup" is-config="true" duration-ms="15754" started-at="2019-09-13T14:49:44Z" finished-at="2019-09-13T14:50:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configSetup -->
-        <test-method status="PASS" signature="homePage(java.lang.String, java.lang.String)[pri:1, instance:com.phptravells.LoginPage@343f4d3d]" name="homePage" duration-ms="7750" started-at="2019-09-12T12:44:49Z" data-provider="logininput" finished-at="2019-09-12T12:44:57Z">
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String)[pri:1, instance:com.phptravells.LoginPage@f6c48ac]" name="loginPage" duration-ms="8387" started-at="2019-09-13T14:50:02Z" data-provider="logininput" finished-at="2019-09-13T14:50:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ user@phptravels.com]]>
+                <![CDATA[user@phptravels.com]]>
               </value>
             </param>
             <param index="1">
@@ -286,7 +104,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePage -->
+        </test-method> <!-- loginPage -->
       </class> <!-- com.phptravells.LoginPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

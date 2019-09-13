@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 /*
- * In this Class i'm reading excel file using maven
+ * In this Class i'm reading excel file
  */
 public class ExcelFileOperation {
 	static FileInputStream fis = null;

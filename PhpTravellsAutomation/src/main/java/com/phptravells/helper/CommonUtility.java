@@ -1,6 +1,7 @@
 package com.phptravells.helper;
 
 import java.time.Duration;
+
 import java.util.List;
 import java.util.function.Function;
 
@@ -13,33 +14,34 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 
 public class CommonUtility {
-	
+
 	static WebDriver driver;
 	/**
 	 * method click the Element using the fluent wait concepts ignoring the ElementClickInterceptedException.
 	 * @param driver
 	 * @param xpath
 	 */
-	
+
 	public static void clickElement(WebDriver driver,final String xpath) {
 		FluentWait<WebDriver> fluentWait= new FluentWait<WebDriver>(driver)
 				.ignoring(ElementClickInterceptedException.class).pollingEvery(Duration.ofMillis(1000))
 				.withTimeout(Duration.ofMillis(30000));
 		fluentWait.until(new Function<WebDriver, Boolean>() {
-		  public Boolean apply(WebDriver driver) {
+			public Boolean apply(WebDriver driver) {
 				WebElement element= driver.findElement(By.xpath(xpath));
 				element.click();
 				return true;
 			}
-		
-			
+
+
 		});
-		
-		
-		
+
+
+
 	}
 	/**
 	 * method takes parameter as
@@ -49,19 +51,19 @@ public class CommonUtility {
 	 * @param text
 	 * and select the items from the drop down.
 	 */
-	
+
 	public static void selectDropdown(WebDriver driver, final String xpath,int timeOut,final String text) {
 		FluentWait<WebDriver> fluentWait= new FluentWait<WebDriver>(driver).pollingEvery(Duration.ofMillis(1000))
 				.withTimeout(Duration.ofMillis(30000));
 		fluentWait.until(new Function<WebDriver, Boolean>() {
 			public Boolean apply(WebDriver driver) {
-			WebElement element =driver.findElement(By.xpath(xpath));
-			Select select= new Select(element);
-		
-			select.selectByVisibleText(text);
-			return true;
+				WebElement element =driver.findElement(By.xpath(xpath));
+				Select select= new Select(element);
+
+				select.selectByVisibleText(text);
+				return true;
 			}
-			
+
 		});
 	}
 	/**
@@ -85,14 +87,14 @@ public class CommonUtility {
 			}
 		});
 	}
-	
+
 	/**
 	 * method takes parameter as
 	 * @param driver
 	 * @param xpath
 	 * using explicit wait it will click the element
 	 */
-	
+
 	/**
 	 * method takes parameters as
 	 * @param driver
@@ -106,16 +108,16 @@ public class CommonUtility {
 				.ignoring(ElementClickInterceptedException.class).pollingEvery(Duration.ofMillis(1000))
 				.withTimeout(Duration.ofMillis(30000));
 		return fluentWait.until(new Function<WebDriver, String>() {
-		  public String apply(WebDriver driver) {
+			public String apply(WebDriver driver) {
 				WebElement element= driver.findElement(By.xpath(xpath));
 				String text =element.getText();
 				return text;
 			}
-		
-			
+
+
 		});
 	}
-	
+
 	/**
 	 * method takes parameter as 
 	 * @param driver
@@ -124,12 +126,12 @@ public class CommonUtility {
 	 * @return WebElement
 	 */
 	public static WebElement getElement(WebDriver driver, String xpath, String text) {
-		
+
 		WebElement element = driver.findElement(By.xpath(xpath));
 		element.sendKeys(text);
 		return element;
 	}
-	
+
 	/**
 	 * method takes parameters as
 	 * 
@@ -145,24 +147,24 @@ public class CommonUtility {
 			isDisplayed = false;
 		}
 		return isDisplayed;
-		}
-	
-	
-	
+	}
+
+
+
 	public static void clearElement(WebDriver driver,final String xpath) {
 		FluentWait<WebDriver> fluentWait= new FluentWait<WebDriver>(driver)
 				.ignoring(ElementClickInterceptedException.class).pollingEvery(Duration.ofMillis(1000))
 				.withTimeout(Duration.ofMillis(30000));
 		fluentWait.until(new Function<WebDriver, Boolean>() {
-		  public Boolean apply(WebDriver driver) {
+			public Boolean apply(WebDriver driver) {
 				WebElement element= driver.findElement(By.xpath(xpath));
 				element.clear();
 				return true;
-			   }
+			}
 		});
 	}
-		
-	
+
+
 	/**
 	 * method takes parameters as
 	 * 
@@ -198,7 +200,7 @@ public class CommonUtility {
 	 * method scroll down the window on the web page
 	 * @param driver
 	 */
-	
+
 	/**
 	 * the method takes parameter as 
 	 * @param driver
@@ -206,20 +208,20 @@ public class CommonUtility {
 	 * and scroll down the window.
 	 */
 	public static void scrollDownPage(WebDriver driver,int byResolution) {
-	
-       JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 		String scroll= "window.scrollBy(0,"+byResolution+")";
-	   js.executeScript(scroll);
-		
+		js.executeScript(scroll);
+
 	}
 	public static  void scrollToElement(WebDriver driver,String xpath) {
 		WebElement element= driver.findElement(By.xpath(xpath));
 		JavascriptExecutor js= (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView();", element);
 	}
-	
-	
-	
+
+
+
 	public static void wait(int timeOut)
 	{
 		try {
@@ -229,8 +231,27 @@ public class CommonUtility {
 			e.printStackTrace();
 		}
 	}
-	
-	
-	
+
+	/**
+	 * 
+	 * @param actual
+	 * @param expected
+	 * @param message
+	 */
+	public void verify(String actual , String expected , String message) {
+		try {
+
+
+			Assert.assertEquals(actual, expected, message);
+			System.out.println("passed");
+
+		} catch (AssertionError e) {
+			System.out.println(message);
+		}
+
+
+
+	}
+
 
 }

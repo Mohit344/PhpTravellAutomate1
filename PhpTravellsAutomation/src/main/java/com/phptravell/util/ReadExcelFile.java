@@ -24,12 +24,12 @@ public class ReadExcelFile {
 			try {
 				workbook = new XSSFWorkbook(fileInput);
 			} catch (IOException e) {
-				
+
 				e.printStackTrace();
 			}
 
 		} catch (FileNotFoundException e) {
-			
+
 			e.printStackTrace();
 		}
 	}
@@ -45,19 +45,12 @@ public class ReadExcelFile {
 		//System.out.println("rowCount::"+rowCount);
 		return rowCount;
 	}
-	
+
 	public int totalColsinSheet(int sheetIndex,int rowCount) {
 		int colCount = workbook.getSheetAt(sheetIndex).getRow(rowCount).getLastCellNum();
-		
+
 		return colCount;
 	}
-	/*public static void main(String[] args) {
-		ReadExcelFile ref= new ReadExcelFile(FilePath.ORANGEHRM_TEST_FILE);
-		
-		ref.totalRowsinSheet(0);
-		System.out.println("total cols in rows "+ref.totalColsinSheet(0,1));
-         System.out.println("Data in row is"+ref.getData(0, 1, 0));
-		
-	}*/
+
 
 }

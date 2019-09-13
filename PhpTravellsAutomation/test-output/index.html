@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,31 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.CarBookingPage" hash-for-method="CarBookingpage(Manchester, 11/09/2019, 12/09/2019)">CarBookingpage(Manchester, 11/09/2019, 12/09/2019)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.CarTwoBooking" hash-for-method="carTwoBooking(Nile Egypt, 12/10/2019,  &#039;13/10/2019)">carTwoBooking(Nile Egypt, 12/10/2019,  '13/10/2019)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.CarBookPayNow" hash-for-method="carTwoBookingpaynow(Mohit, Jaiswal, 1234567892, 900)">carTwoBookingpaynow(Mohit, Jaiswal, 1234567892, 900)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -126,7 +102,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.LoginPage" hash-for-method="homePage( user@phptravels.com, demouser)">homePage( user@phptravels.com, demouser)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.CarFirstBookingPayArrival" hash-for-method="carBookinPayArrival(Manchester, 21/10/2019, 31/10/2019)">carBookinPayArrival(Manchester, 21/10/2019, 31/10/2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.CarTwoBooking" hash-for-method="carTwoBooking(Nile Egypt, 12/10/2019, 13/10/2019)">carTwoBooking(Nile Egypt, 12/10/2019, 13/10/2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.CarBookPayNow" hash-for-method="carTwoBookingPayNow(Mohit, Jaiswal, 1234567892, 900)">carTwoBookingPayNow(Mohit, Jaiswal, 1234567892, 900)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.phptravells.LoginPage" hash-for-method="loginPage(user@phptravels.com, demouser)">loginPage(user@phptravels.com, demouser)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -141,115 +132,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.phptravells.CarTwoBooking</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="carTwoBooking(Nile Egypt, 12/10/2019,  &#039;13/10/2019)">
-                  </a> <!-- carTwoBooking(Nile Egypt, 12/10/2019,  '13/10/2019) -->
-                  <span class="method-name">carTwoBooking</span>
-                  <span class="parameters">(Nile Egypt, 12/10/2019,  '13/10/2019)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=77.0.3865.75)
-Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:511)
-	at com.phptravells.CarTwoBooking.carTwoBooking(CarTwoBooking.java:47)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.phptravells.CarBookingPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="CarBookingpage(Manchester, 11/09/2019, 12/09/2019)">
-                  </a> <!-- CarBookingpage(Manchester, 11/09/2019, 12/09/2019) -->
-                  <span class="method-name">CarBookingpage</span>
-                  <span class="parameters">(Manchester, 11/09/2019, 12/09/2019)</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=77.0.3865.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:173)
-	at com.phptravells.CarBookingPage.CarBookingpage(CarBookingPage.java:55)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.phptravells.CarBookPayNow</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="carTwoBookingpaynow(Mohit, Jaiswal, 1234567892, 900)">
-                  </a> <!-- carTwoBookingpaynow(Mohit, Jaiswal, 1234567892, 900) -->
-                  <span class="method-name">carTwoBookingpaynow</span>
-                  <span class="parameters">(Mohit, Jaiswal, 1234567892, 900)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=77.0.3865.75)
-Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;ATMECSINLT-065&apos;, ip: &apos;55.55.54.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
-*** Element info: {Using=xpath, value=(//button[text()=&apos;Pay Now&apos;])[1]}
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at com.phptravells.helper.CommonUtility$1.apply(CommonUtility.java:33)
-	at com.phptravells.helper.CommonUtility$1.apply(CommonUtility.java:1)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)
-	at com.phptravells.helper.CommonUtility.clickElement(CommonUtility.java:31)
-	at com.phptravells.CarBookPayNow.carTwoBookingpaynow(CarBookPayNow.java:22)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -258,10 +140,58 @@ Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="homePage( user@phptravels.com, demouser)">
-                  </a> <!-- homePage( user@phptravels.com, demouser) -->
-                  <span class="method-name">homePage</span>
-                  <span class="parameters">( user@phptravels.com, demouser)</span>
+                  <a name="loginPage(user@phptravels.com, demouser)">
+                  </a> <!-- loginPage(user@phptravels.com, demouser) -->
+                  <span class="method-name">loginPage</span>
+                  <span class="parameters">(user@phptravels.com, demouser)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phptravells.CarBookPayNow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carTwoBookingPayNow(Mohit, Jaiswal, 1234567892, 900)">
+                  </a> <!-- carTwoBookingPayNow(Mohit, Jaiswal, 1234567892, 900) -->
+                  <span class="method-name">carTwoBookingPayNow</span>
+                  <span class="parameters">(Mohit, Jaiswal, 1234567892, 900)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phptravells.CarTwoBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carTwoBooking(Nile Egypt, 12/10/2019, 13/10/2019)">
+                  </a> <!-- carTwoBooking(Nile Egypt, 12/10/2019, 13/10/2019) -->
+                  <span class="method-name">carTwoBooking</span>
+                  <span class="parameters">(Nile Egypt, 12/10/2019, 13/10/2019)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phptravells.CarFirstBookingPayArrival</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carBookinPayArrival(Manchester, 21/10/2019, 31/10/2019)">
+                  </a> <!-- carBookinPayArrival(Manchester, 21/10/2019, 31/10/2019) -->
+                  <span class="method-name">carBookinPayArrival</span>
+                  <span class="parameters">(Manchester, 21/10/2019, 31/10/2019)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,10 +206,13 @@ Session ID: 6869e7f7c6f60ca3fbb1db6eea9d71b5
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.phpautomation.extendreport.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.phptravells.LoginPage&quot;/&gt;
-      &lt;class name=&quot;com.phptravells.CarBookingPage&quot;/&gt;
+      &lt;class name=&quot;com.phptravells.CarFirstBookingPayArrival&quot;/&gt;
       &lt;class name=&quot;com.phptravells.CarTwoBooking&quot;/&gt;
       &lt;class name=&quot;com.phptravells.CarBookPayNow&quot;/&gt;
     &lt;/classes&gt;
@@ -323,21 +256,21 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'carTwoBooking')
-data.setCell(0, 2, 'com.phptravells.CarTwoBooking')
-data.setCell(0, 3, 31366);
+data.setCell(0, 1, 'carBookinPayArrival')
+data.setCell(0, 2, 'com.phptravells.CarFirstBookingPayArrival')
+data.setCell(0, 3, 26240);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'CarBookingpage')
-data.setCell(1, 2, 'com.phptravells.CarBookingPage')
-data.setCell(1, 3, 23134);
+data.setCell(1, 1, 'carTwoBooking')
+data.setCell(1, 2, 'com.phptravells.CarTwoBooking')
+data.setCell(1, 3, 24866);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'carTwoBookingpaynow')
+data.setCell(2, 1, 'carTwoBookingPayNow')
 data.setCell(2, 2, 'com.phptravells.CarBookPayNow')
-data.setCell(2, 3, 14146);
+data.setCell(2, 3, 13139);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'homePage')
+data.setCell(3, 1, 'loginPage')
 data.setCell(3, 2, 'com.phptravells.LoginPage')
-data.setCell(3, 3, 7750);
+data.setCell(3, 3, 8387);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -361,6 +294,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">com.phptravells.CarBookPayNow</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">configSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">com.phptravells.CarTwoBooking</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">configSetup</span>
@@ -368,14 +308,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.phptravells.CarBookingPage</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">configSetup</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.phptravells.CarBookPayNow</span>
+              <span class="ignored-class-name">com.phptravells.CarFirstBookingPayArrival</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">configSetup</span>
                 <br/>
@@ -395,36 +328,34 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
-                <span class="method-name">homePage( user@phptravels.com, demouser)</span>
-                <span class="method-start">17881 ms</span>
+                <span class="method-name">loginPage(user@phptravels.com, demouser)</span>
+                <span class="method-start">17376 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.phptravells.CarBookingPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.phptravells.CarFirstBookingPayArrival</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">CarBookingpage(Manchester, 11/09/2019, 12/09/2019)</span>
-                <span class="method-start">25751 ms</span>
+                <span class="method-name">carBookinPayArrival(Manchester, 21/10/2019, 31/10/2019)</span>
+                <span class="method-start">25951 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.phptravells.CarTwoBooking</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">carTwoBooking(Nile Egypt, 12/10/2019,  '13/10/2019)</span>
-                <span class="method-start">49033 ms</span>
+                <span class="method-name">carTwoBooking(Nile Egypt, 12/10/2019, 13/10/2019)</span>
+                <span class="method-start">52267 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.phptravells.CarBookPayNow</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">carTwoBookingpaynow(Mohit, Jaiswal, 1234567892, 900)</span>
-                <span class="method-start">80438 ms</span>
+                <span class="method-name">carTwoBookingPayNow(Mohit, Jaiswal, 1234567892, 900)</span>
+                <span class="method-start">77197 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDown</span>
+                <span class="method-start">90336 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
