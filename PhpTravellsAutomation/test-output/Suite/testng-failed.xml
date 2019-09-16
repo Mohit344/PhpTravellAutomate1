@@ -6,12 +6,25 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.phptravells.CarFirstBookingPayArrival">
+      <class name="com.phptravells.script.CarBookPayNow">
+        <methods>
+          <include name="quitDown"/>
+          <include name="carTwoBookingPayNow" invocation-numbers="0"/>
+          <include name="configSetup"/>
+        </methods>
+      </class> <!-- com.phptravells.script.CarBookPayNow -->
+      <class name="com.phptravells.script.CarTwoBooking">
+        <methods>
+          <include name="carTwoBooking" invocation-numbers="0"/>
+          <include name="configSetup"/>
+        </methods>
+      </class> <!-- com.phptravells.script.CarTwoBooking -->
+      <class name="com.phptravells.script.CarFirstBookingPayArrival">
         <methods>
           <include name="carBookinPayArrival" invocation-numbers="0"/>
           <include name="configSetup"/>
         </methods>
-      </class> <!-- com.phptravells.CarFirstBookingPayArrival -->
+      </class> <!-- com.phptravells.script.CarFirstBookingPayArrival -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

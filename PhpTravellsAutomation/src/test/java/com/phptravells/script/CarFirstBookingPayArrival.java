@@ -1,11 +1,18 @@
-package com.phptravells;
+package com.phptravells.script;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -24,6 +31,7 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 	Logger logge;
 	FindLocator loc = new FindLocator();
 	static String strronecar;
+	Date date = new Date();
 
 	/**
 	 * 
@@ -38,7 +46,10 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 
 		logge = Logger.getLogger(CarFirstBookingPayArrival.class); // log4j implementation for storing the result
 		logge.info("Enter to carBookinPayArrivalpage ");
-
+       		
+		Thread.sleep(2000);
+//		WebDriverWait wait = new WebDriverWait(driver, 20);
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(loc.getlocator("clickpick1")))).click();
 		CommonUtility.clickElement(driver, loc.getlocator("clickpick1"));
 		CommonUtility.clickAndSendText(driver, loc.getlocator("sendkeyonpick"), 3, sendkeyonpick);
 
@@ -62,7 +73,28 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		//		JavascriptExecutor js = (JavascriptExecutor) driver;
 		//		js.executeScript("window.scrollBy(0,900)");
 
-		WebElement element = driver.findElement(By.xpath("//button[text()='Book Now']"));
+		// for scroll down to click booknow 
+		WebElement amtcar1=driver.findElement(By.xpath(loc.getlocator("totalamt1")));
+		String srtamt1 = amtcar1.getText();
+		System.out.println(srtamt1);
+		
+		WebElement amtdepnow = driver.findElement(By.xpath(loc.getlocator("deposit1")));
+		String strdepositnow = amtdepnow.getText();
+		System.out.println(strdepositnow);
+		
+		WebElement amtvat = driver.findElement(By.xpath(loc.getlocator("amountvat2")));
+		String strvat = amtvat.getText();
+		System.out.println(strvat);
+
+		
+		
+		
+		
+		
+		
+		
+		
+		WebElement element = driver.findElement(By.xpath(loc.getlocator("booknowjs")));
 		JavascriptExecutor je = (JavascriptExecutor) driver;
 		je.executeScript("arguments[0].scrollIntoView(true);", element);// javascript executor for scroll down
 
@@ -117,9 +149,47 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		WebElement strrdroptmm = driver.findElement(By.xpath(loc.getlocator("getdroptm")));//validate the droptime 
 		String Strrdroptm1 = strrdroptmm.getText();
 		car.verify(strrdrptm,Strrdroptm1 , "incorrect droptime");
+		
+		WebElement amtdeposit = driver.findElement(By.xpath(loc.getlocator("depositamoutinvoice1")));
+		String  inr_Strdepositnow = amtdeposit.getText();
+		inr_Strdepositnow = CommonUtility.removeINR(inr_Strdepositnow);
+		System.out.println(inr_Strdepositnow);
+		 
+		WebElement arramtvat = driver.findElement(By.xpath(loc.getlocator("amountvat1")));
+		String arrstrvat = arramtvat.getText();
+		System.out.println(arrstrvat);
+		arrstrvat=CommonUtility.removeINR(arrstrvat);
+		System.out.println(arrstrvat);
+		
+		WebElement amttotal = driver.findElement(By.xpath(loc.getlocator("totalamount1")));
+		String arrstrtotal =amttotal.getText();
+		System.out.println(arrstrtotal);
+		arrstrtotal=CommonUtility.removeINR(arrstrtotal);
+		System.out.println(arrstrtotal);
+		LocalDate date1 = LocalDate.now();
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		String t=date1.format(formatter);
+		System.out.println(t);
+		
+		
+		
+		WebElement todaydate2 = driver.findElement(By.xpath(loc.getlocator("todaydate2")));
+		String todaydate = todaydate2.getText();
+		System.out.println(todaydate);
+		
+		 
+		car.verify(strdepositnow,inr_Strdepositnow , "not matched");
+		car.verify(strvat, arrstrvat, "not matched");
+		car.verify(srtamt1, arrstrtotal, "not matched");
+		car.verify(t, todaydate, "not correct");
+		
+		
 
 		logge = Logger.getLogger(CarFirstBookingPayArrival.class); // log4j implementation for storing the result
 		logge.info("Car booked by the payArrival ");
+		
+		
+		
 
 	}
 

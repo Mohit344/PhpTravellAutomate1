@@ -1,17 +1,15 @@
-package com.phptravells;
+package com.phptravells.script;
 
-import java.io.FileInputStream;
-
-import java.io.IOException;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
-import org.testng.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 
 import com.atmecs.phptravel.constant.FindLocator;
-
 import com.phptravells.Driver.Driver_Class;
 import com.phptravells.helper.CommonUtility;
 import com.phptravellsdataprovider.PhpTravellsLoginDataProvider;
@@ -32,9 +30,9 @@ public class LoginPage extends Driver_Class {
 	{
 		logge=Logger.getLogger(LoginPage.class);  // log4j implementation for storing the result 
 		logge.info(" enter in login page ");
+		CommonUtility.clickElement(driver, "//button[text()='Got it!']");
 		CommonUtility.clickElement(driver,loc.getlocator("My_Account"))	;
 		CommonUtility.clickElement(driver,loc.getlocator("Login"));
-
 		driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
 		CommonUtility.clickAndSendText(driver,loc.getlocator("Emailid") ,2,Emailid);
 		CommonUtility.clickAndSendText(driver,loc.getlocator("Password") ,2, Password);
@@ -51,22 +49,34 @@ public class LoginPage extends Driver_Class {
 		String expectedUrl= driver.getCurrentUrl();
 		if(actualUrl.equalsIgnoreCase(expectedUrl))
 		{ 
-			  System.out.println("Test passed"); } 
-		
-		else {
-			
-			System.out.println("Test failed"); } 
-		
-		
-		
-//// validation of url lofin page for to navigate the to car 
-//		String actualurl= "https://www.phptravels.net/account/";
-//		String expectedurl= driver.getCurrentUrl();
-//		Assert.assertEquals(actualurl,expectedurl);
+			System.out.println("passed"); } 
 
+		else {
+
+			System.out.println("Test failed"); } 
 		CommonUtility.clickElement(driver,loc.getlocator("carnav"));// navigate to  clickcar
 
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Actions action = new Actions(driver);
+		WebElement wb = driver.findElement(By.xpath(loc.getlocator("changecurrency")));
+		action.moveToElement(wb).build().perform();
+		driver.findElement(By.xpath(loc.getlocator("changecurrencytoinr"))).click();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 
+	}
+	@AfterSuite
+	public void end() {
+		driver.quit();
 	}
 
 

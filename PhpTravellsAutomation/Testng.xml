@@ -8,13 +8,16 @@
 </listeners>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="com.phptravells.LoginPage"/>
-			<class name="com.phptravells.CarFirstBookingPayArrival"/>
-			<class name="com.phptravells.CarTwoBooking"/>
-			<class name="com.phptravells.CarBookPayNow"/>
+			<class name="com.phptravells.script.LoginPage"/>
+			<class name="com.phptravells.script.CarFirstBookingPayArrival"/>
+			<class name="com.phptravells.script.CarTwoBooking"/>
+			<class name="com.phptravells.script.CarBookPayNow"/>
 			
 			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
+
+
+
 

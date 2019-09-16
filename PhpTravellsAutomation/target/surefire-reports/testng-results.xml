@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="80353" started-at="2019-09-13T20:36:25 IST" finished-at="2019-09-13T20:37:45 IST">
+  <suite name="Suite" duration-ms="121414" started-at="2019-09-16T17:49:12 IST" finished-at="2019-09-16T17:51:13 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="80353" started-at="2019-09-13T20:36:25 IST" finished-at="2019-09-13T20:37:45 IST">
+    <test name="Test" duration-ms="121414" started-at="2019-09-16T17:49:12 IST" finished-at="2019-09-16T17:51:13 IST">
       <class name="com.phptravells.CarTwoBooking">
-        <test-method status="PASS" signature="carTwoBooking(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravells.CarTwoBooking@6e06451e]" name="carTwoBooking" duration-ms="26016" started-at="2019-09-13T20:37:03 IST" data-provider="CartwoBooking" finished-at="2019-09-13T20:37:29 IST">
+        <test-method status="PASS" signature="carTwoBooking(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravells.CarTwoBooking@59494225]" name="carTwoBooking" duration-ms="37506" started-at="2019-09-16T17:50:14 IST" data-provider="CartwoBooking" finished-at="2019-09-16T17:50:52 IST">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
         </test-method> <!-- carTwoBooking -->
       </class> <!-- com.phptravells.CarTwoBooking -->
       <class name="com.phptravells.CarBookPayNow">
-        <test-method status="PASS" signature="carTwoBookingPayNow(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.phptravells.CarBookPayNow@59494225]" name="carTwoBookingPayNow" duration-ms="14708" started-at="2019-09-13T20:37:29 IST" data-provider="CartwoBookingpaynow" finished-at="2019-09-13T20:37:43 IST">
+        <test-method status="PASS" signature="carTwoBookingPayNow(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.phptravells.CarBookPayNow@6e1567f1]" name="carTwoBookingPayNow" duration-ms="19213" started-at="2019-09-16T17:50:52 IST" data-provider="CartwoBookingpaynow" finished-at="2019-09-16T17:51:11 IST">
           <params>
             <param index="0">
               <value>
@@ -56,13 +56,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carTwoBookingPayNow -->
-        <test-method status="PASS" signature="quitDown()[pri:0, instance:com.phptravells.CarBookPayNow@59494225]" name="quitDown" is-config="true" duration-ms="1527" started-at="2019-09-13T20:37:43 IST" finished-at="2019-09-13T20:37:45 IST">
+        <test-method status="PASS" signature="quitDown()[pri:0, instance:com.phptravells.CarBookPayNow@6e1567f1]" name="quitDown" is-config="true" duration-ms="2490" started-at="2019-09-16T17:51:11 IST" finished-at="2019-09-16T17:51:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDown -->
       </class> <!-- com.phptravells.CarBookPayNow -->
       <class name="com.phptravells.CarFirstBookingPayArrival">
-        <test-method status="PASS" signature="carBookinPayArrival(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.phptravells.CarFirstBookingPayArrival@72d818d1]" name="carBookinPayArrival" duration-ms="28250" started-at="2019-09-13T20:36:34 IST" data-provider="CarBooking" finished-at="2019-09-13T20:37:03 IST">
+        <test-method status="PASS" signature="carBookinPayArrival(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.phptravells.CarFirstBookingPayArrival@6e06451e]" name="carBookinPayArrival" duration-ms="37366" started-at="2019-09-16T17:49:37 IST" data-provider="CarBooking" finished-at="2019-09-16T17:50:14 IST">
           <params>
             <param index="0">
               <value>
@@ -85,11 +85,11 @@
         </test-method> <!-- carBookinPayArrival -->
       </class> <!-- com.phptravells.CarFirstBookingPayArrival -->
       <class name="com.phptravells.LoginPage">
-        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.phptravells.LoginPage@27c20538]" name="configSetup" is-config="true" duration-ms="20008" started-at="2019-09-13T20:36:05 IST" finished-at="2019-09-13T20:36:25 IST">
+        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.phptravells.LoginPage@72d818d1]" name="configSetup" is-config="true" duration-ms="17603" started-at="2019-09-16T17:48:54 IST" finished-at="2019-09-16T17:49:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configSetup -->
-        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String)[pri:1, instance:com.phptravells.LoginPage@27c20538]" name="loginPage" duration-ms="8105" started-at="2019-09-13T20:36:26 IST" data-provider="logininput" finished-at="2019-09-13T20:36:34 IST">
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String)[pri:1, instance:com.phptravells.LoginPage@72d818d1]" name="loginPage" duration-ms="22623" started-at="2019-09-16T17:49:14 IST" data-provider="logininput" finished-at="2019-09-16T17:49:36 IST">
           <params>
             <param index="0">
               <value>
@@ -105,6 +105,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.phptravells.LoginPage@72d818d1]" name="end" is-config="true" duration-ms="0" started-at="2019-09-16T17:51:13 IST" finished-at="2019-09-16T17:51:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
       </class> <!-- com.phptravells.LoginPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

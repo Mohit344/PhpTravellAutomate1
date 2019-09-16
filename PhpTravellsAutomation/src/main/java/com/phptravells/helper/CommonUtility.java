@@ -88,12 +88,7 @@ public class CommonUtility {
 		});
 	}
 
-	/**
-	 * method takes parameter as
-	 * @param driver
-	 * @param xpath
-	 * using explicit wait it will click the element
-	 */
+	
 
 	/**
 	 * method takes parameters as
@@ -251,6 +246,10 @@ public class CommonUtility {
 
 
 
+	}
+	public static String removeINR(String cost) {
+		cost=cost.replace("INR ", "");
+		return cost;
 	}
 
 
