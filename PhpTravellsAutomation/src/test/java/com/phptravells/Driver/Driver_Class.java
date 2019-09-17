@@ -11,16 +11,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
-public class Driver_Class {
+import com.phpautomation.extendreport.Extent;
 
-	static public WebDriver driver;
+public class Driver_Class extends Extent {
 	/**
 	 *switch case is created for the browsers-chrome,firefox.
 	 * @throws IOException
 	 */
 
-	@BeforeSuite
+	@BeforeTest
 	public void configSetup() throws IOException {
 
 		File file = new File("./src/test/resources/Testdata/phptravell_config");

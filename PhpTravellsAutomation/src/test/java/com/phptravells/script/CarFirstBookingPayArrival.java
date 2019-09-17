@@ -40,26 +40,27 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 	 * @param sendkeydrop
 	 * @throws InterruptedException
 	 */
+	
 	@Test(priority = 2, dataProvider = "CarBooking", dataProviderClass = PhpTravellsCarBookPayArrivalDataProvider.class)
 	public void carBookinPayArrival(String sendkeyonpick, String senddepartdate, String sendkeydrop)
 			throws InterruptedException {
 
+		logger=extent.startTest("carbookingPayaOn Arrival");
+		
 		logge = Logger.getLogger(CarFirstBookingPayArrival.class); // log4j implementation for storing the result
 		logge.info("Enter to carBookinPayArrivalpage ");
        		
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 //		WebDriverWait wait = new WebDriverWait(driver, 20);
 //		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(loc.getlocator("clickpick1")))).click();
 		CommonUtility.clickElement(driver, loc.getlocator("clickpick1"));
+		Thread.sleep(1000);
 		CommonUtility.clickAndSendText(driver, loc.getlocator("sendkeyonpick"), 3, sendkeyonpick);
-
 		CommonUtility.clickElement(driver, loc.getlocator("clickonpick"));
-
 		CommonUtility.clearElement(driver, loc.getlocator("cleardepartdate"));
 		CommonUtility.clickAndSendText(driver, loc.getlocator("senddepartdate"), 2, senddepartdate);
 		CommonUtility.clickElement(driver, loc.getlocator("senddepartdate"));
 		CommonUtility.clickElement(driver, loc.getlocator("departclick"));
-
 		CommonUtility.clickElement(driver, loc.getlocator("selectonthepicktime"));
 		CommonUtility.clickElement(driver, loc.getlocator("clickonpicktime"));
 		CommonUtility.clearElement(driver, loc.getlocator("clickondropdate"));
@@ -70,10 +71,7 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		CommonUtility.clickElement(driver, loc.getlocator("selectdroptime"));
 		CommonUtility.clickElement(driver, loc.getlocator("clickonsearch"));
 		CommonUtility.clickElement(driver, loc.getlocator("clickondeatils"));
-		//		JavascriptExecutor js = (JavascriptExecutor) driver;
-		//		js.executeScript("window.scrollBy(0,900)");
-
-		// for scroll down to click booknow 
+		
 		WebElement amtcar1=driver.findElement(By.xpath(loc.getlocator("totalamt1")));
 		String srtamt1 = amtcar1.getText();
 		System.out.println(srtamt1);
@@ -86,14 +84,6 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		String strvat = amtvat.getText();
 		System.out.println(strvat);
 
-		
-		
-		
-		
-		
-		
-		
-		
 		WebElement element = driver.findElement(By.xpath(loc.getlocator("booknowjs")));
 		JavascriptExecutor je = (JavascriptExecutor) driver;
 		je.executeScript("arguments[0].scrollIntoView(true);", element);// javascript executor for scroll down
@@ -115,7 +105,7 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		jss.executeScript("window.scrollBy(0,900)");
 		CommonUtility.clickElement(driver, loc.getlocator("confirmthisbooking"));
 		CommonUtility.clickElement(driver, loc.getlocator("click_on_payonarrival"));
-	//	 CommonUtility.clickElement(driver,loc.getlocator("click_on_payonarrival"));// for firefox uncomment it .
+	   // CommonUtility.clickElement(driver,loc.getlocator("click_on_payonarrival"));// for firefox uncomment it .
 
 		// driver.manage().timeouts().implicitlyWait(000, TimeUnit.SECONDS);
 		Alert alert = driver.switchTo().alert();
@@ -129,26 +119,18 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		String strr = ele.getText();
 		String date = ele.getAttribute("innerHTML");
 		CommonUtility car = new CommonUtility();
-		car.verify(strr, sendkeyonpick, "placenotmatch");
-		
-		
-		
+
 		WebElement pickdate = driver.findElement(By.xpath(loc.getlocator("getpickdate")));//validate the pickdate
 		String strr1 = pickdate.getText();
-		car.verify(strr1, senddepartdate, "date is not correct");
+		
 		WebElement dropdate = driver.findElement(By.xpath(loc.getlocator("getpickdate2")));//validate the dropdate 
 		String strr2 = dropdate.getText();
-		car.verify(strr2, sendkeydrop, "date is not   correct");
-
 		Thread.sleep(1000);
-
 		WebElement strrpicktmm = driver.findElement(By.xpath(loc.getlocator("getpicktm")));//validate the picktime
 		String strrpicktmm1= strrpicktmm.getText();
-		car.verify(strrpicktime,strrpicktmm1 , "incorrect picktime");
-
+	
 		WebElement strrdroptmm = driver.findElement(By.xpath(loc.getlocator("getdroptm")));//validate the droptime 
 		String Strrdroptm1 = strrdroptmm.getText();
-		car.verify(strrdrptm,Strrdroptm1 , "incorrect droptime");
 		
 		WebElement amtdeposit = driver.findElement(By.xpath(loc.getlocator("depositamoutinvoice1")));
 		String  inr_Strdepositnow = amtdeposit.getText();
@@ -167,30 +149,25 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		arrstrtotal=CommonUtility.removeINR(arrstrtotal);
 		System.out.println(arrstrtotal);
 		LocalDate date1 = LocalDate.now();
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");// take the system date 
 		String t=date1.format(formatter);
 		System.out.println(t);
-		
-		
-		
 		WebElement todaydate2 = driver.findElement(By.xpath(loc.getlocator("todaydate2")));
 		String todaydate = todaydate2.getText();
 		System.out.println(todaydate);
-		
-		 
-		car.verify(strdepositnow,inr_Strdepositnow , "not matched");
-		car.verify(strvat, arrstrvat, "not matched");
-		car.verify(srtamt1, arrstrtotal, "not matched");
-		car.verify(t, todaydate, "not correct");
-		
-		
 
+		car.verify(strrdrptm,Strrdroptm1 , "incorrect droptime");// vaidation for drop time
+		car.verify(strrpicktime,strrpicktmm1 , "incorrect picktime");// validation for picktime
+		car.verify(strr2, sendkeydrop, "date is not   correct");// validate for dropdate
+		car.verify(strr1, senddepartdate, "date is not correct");// validation for departdate
+		car.verify(strr, sendkeyonpick, "placenotmatch");
+		car.verify(strdepositnow,inr_Strdepositnow , "not matched");// total deposit verifictaion 
+		car.verify(strvat, arrstrvat, "not matched");// total vat verication
+		car.verify(srtamt1, arrstrtotal, "not matched");//total amount veification
+		car.verify(t, todaydate, "not correct");// today date verification
 		logge = Logger.getLogger(CarFirstBookingPayArrival.class); // log4j implementation for storing the result
 		logge.info("Car booked by the payArrival ");
 		
-		
-		
-
 	}
 
 }

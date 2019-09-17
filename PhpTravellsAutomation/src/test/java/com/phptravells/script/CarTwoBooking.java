@@ -36,11 +36,14 @@ public class CarTwoBooking extends Driver_Class {
 	@Test(priority = 3, dataProvider = "CartwoBooking", dataProviderClass = CarBookingTwoDataProvider.class)
 	public void carTwoBooking(String secsendkeyonpick, String secsenddepartdate, String secsendkeydrop)
 			throws InterruptedException {
+		
+		logger=extent.startTest("CarTwoBooking");
+		
 		logge = Logger.getLogger(CarTwoBooking.class); // log4j implementation for storing the result
 		logge.info("CarBooking Two starts ");
 	
     
-		System.out.println("mohit");
+		//System.out.println("mohit");
 		Thread.sleep(3000);
 		CommonUtility.clickElement(driver, loc.getlocator("clickcaragain"));
 		Actions action = new Actions(driver);
@@ -49,8 +52,6 @@ public class CarTwoBooking extends Driver_Class {
 		
 	//	CommonUtility.clickElement(loc.getlocator("loc.inrcurrency.btn"));
 		driver.findElement(By.xpath(loc.getlocator("changecurrencytoinr"))).click();
-		
-		//driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
 		
       try {
 		Thread.sleep(5000);
@@ -61,15 +62,13 @@ public class CarTwoBooking extends Driver_Class {
 
 		
 		CommonUtility.clickElement(driver, loc.getlocator("clickpick1"));
+		Thread.sleep(1000);
 		CommonUtility.clickAndSendText(driver, loc.getlocator("sendkeyonpick"), 3, secsendkeyonpick);
-
 		CommonUtility.clickElement(driver, loc.getlocator("clickonpick"));
-
 		CommonUtility.clearElement(driver, loc.getlocator("cleardepartdate"));
 		CommonUtility.clickAndSendText(driver, loc.getlocator("senddepartdate"), 2, secsenddepartdate);
 		CommonUtility.clickElement(driver, loc.getlocator("senddepartdate"));
 		CommonUtility.clickElement(driver, loc.getlocator("departclick"));
-
 		CommonUtility.clickElement(driver, loc.getlocator("selectonthepicktime"));
 		CommonUtility.clickElement(driver, loc.getlocator("clickonpicktime"));
 		CommonUtility.clearElement(driver, loc.getlocator("clickondropdate"));
@@ -79,13 +78,10 @@ public class CarTwoBooking extends Driver_Class {
 		CommonUtility.clickElement(driver, loc.getlocator("selectthetimedrop"));
 		CommonUtility.clickElement(driver, loc.getlocator("selectdroptime"));
 		CommonUtility.clickElement(driver, loc.getlocator("clickonsearch"));
-		// b[text()='5,352.80']
-
 		CommonUtility.clickElement(driver, loc.getlocator("clickondeatils"));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,1000)");
 
-		// span[text()='Nisan Micra 2011']
 		WebElement getdata = driver.findElement(By.xpath(loc.getlocator("car2valid")));// get the car2 name for
 																						// validation
 		strrtwocar = getdata.getText();
@@ -100,7 +96,6 @@ public class CarTwoBooking extends Driver_Class {
 		String strrdrptm = getdroptm.getText();
 		System.out.println(strrdrptm);
 		
-
 		WebElement amtcar2 = driver.findElement(By.xpath(loc.getlocator("totalamount2")));
 		srtamt2 = amtcar2.getText();
 		System.out.println(srtamt2);
@@ -121,23 +116,23 @@ public class CarTwoBooking extends Driver_Class {
 		WebElement ele = driver.findElement(By.xpath(loc.getlocator("car2location")));// car2location validation
 		String strr = ele.getText();
 		CommonUtility car = new CommonUtility();
-		car.verify(strr, secsendkeyonpick, "placenotmatch");
 		WebElement pickdate = driver.findElement(By.xpath(loc.getlocator("car2pickdate")));// car2pickdate validation
 		String strr1 = pickdate.getText();
-		car.verify(strr1, secsenddepartdate, "date is not  correct");
+	
 		WebElement dropdate = driver.findElement(By.xpath(loc.getlocator("car2drpdate")));
 		String strr2 = dropdate.getText();
-		car.verify(strr2, secsendkeydrop, "date is not   correct");
 
 		WebElement strrtwopicktmm = driver.findElement(By.xpath(loc.getlocator("car2picktm"))); // car2picktm validation
 		String strrtwopicktmm1 = strrtwopicktmm.getText();
-		car.verify(strrpicktm, strrtwopicktmm1, "incorrect picktime");
-
 		WebElement strrdroptmm = driver.findElement(By.xpath(loc.getlocator("car2drptm")));
 		String Strrdroptm1 = strrdroptmm.getText();
-		car.verify(strrdrptm, Strrdroptm1, "incorrect droptime");
-
-
-
+		
+		car.verify(strrdrptm, Strrdroptm1, "incorrect droptime");// drop time verifictaion 
+		car.verify(strrpicktm, strrtwopicktmm1, "incorrect picktime");//picktime verification
+		car.verify(strr, secsendkeyonpick, "placenotmatch");// pick location verifictaion 
+		car.verify(strr1, secsenddepartdate, "date is not  correct");// departdate validation 
+		car.verify(strr2, secsendkeydrop, "date is not   correct");// drop date verifictaion 
+		
+		
 	}
 }

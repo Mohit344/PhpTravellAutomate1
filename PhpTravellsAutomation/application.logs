@@ -1781,3 +1781,906 @@
 2019-09-16 19:29:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2019-09-16 19:29:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2019-09-16 19:29:42 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 19:55:58 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-16 21:03:24 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-16 21:04:57 INFO  LoginPage:32 -  enter in login page 
+2019-09-16 21:05:02 INFO  LoginPage:41 - login page passed 
+2019-09-16 21:05:10 INFO  CarFirstBookingPayArrival:48 - Enter to carBookinPayArrivalpage 
+2019-09-16 21:06:04 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-16 21:06:16 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-16 21:06:20 INFO  CarBookPayNow:148 - close the browser 
+2019-09-16 21:06:21 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:06:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:06:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:06:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:06:21 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:06:23 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:06:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:06:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:06:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:06:23 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:23:33 INFO  LoginPage:32 -  enter in login page 
+2019-09-16 21:23:42 INFO  LoginPage:41 - login page passed 
+2019-09-16 21:23:54 INFO  CarFirstBookingPayArrival:48 - Enter to carBookinPayArrivalpage 
+2019-09-16 21:23:56 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-16 21:26:05 INFO  LoginPage:32 -  enter in login page 
+2019-09-16 21:26:13 INFO  LoginPage:41 - login page passed 
+2019-09-16 21:26:25 INFO  CarFirstBookingPayArrival:48 - Enter to carBookinPayArrivalpage 
+2019-09-16 21:26:28 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-16 21:28:40 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-16 21:28:47 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:28:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:28:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:28:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:28:47 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:28:47 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:28:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:28:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:28:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:28:47 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:31:04 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-16 21:31:08 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:31:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:31:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:31:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:31:08 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:31:09 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:31:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:31:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:31:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:31:09 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:31:31 INFO  LoginPage:32 -  enter in login page 
+2019-09-16 21:31:38 INFO  LoginPage:41 - login page passed 
+2019-09-16 21:31:56 INFO  CarFirstBookingPayArrival:48 - Enter to carBookinPayArrivalpage 
+2019-09-16 21:32:32 INFO  CarFirstBookingPayArrival:189 - Car booked by the payArrival 
+2019-09-16 21:32:32 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-16 21:33:08 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-16 21:33:18 INFO  CarBookPayNow:72 -  car two booked by paynow option  
+2019-09-16 21:33:20 INFO  CarBookPayNow:112 - Back to  homePage 
+2019-09-16 21:33:24 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-16 21:33:28 INFO  CarBookPayNow:148 - close the browser 
+2019-09-16 21:33:29 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:33:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:33:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:33:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:33:29 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:33:29 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:33:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:33:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:33:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:33:29 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:36:10 INFO  LoginPage:32 -  enter in login page 
+2019-09-16 21:36:17 INFO  LoginPage:41 - login page passed 
+2019-09-16 21:36:27 INFO  CarFirstBookingPayArrival:48 - Enter to carBookinPayArrivalpage 
+2019-09-16 21:36:31 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-16 21:37:57 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-16 21:38:00 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:38:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:38:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:38:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:38:00 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:38:01 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:38:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:38:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:38:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:38:01 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:42:18 INFO  LoginPage:32 -  enter in login page 
+2019-09-16 21:42:24 INFO  LoginPage:41 - login page passed 
+2019-09-16 21:42:42 INFO  CarFirstBookingPayArrival:48 - Enter to carBookinPayArrivalpage 
+2019-09-16 21:43:15 INFO  CarFirstBookingPayArrival:190 - Car booked by the payArrival 
+2019-09-16 21:43:15 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-16 21:43:45 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-16 21:43:49 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:43:49 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:43:49 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:43:49 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:43:49 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:43:49 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:43:49 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:43:49 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:43:49 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:43:49 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:45:07 INFO  LoginPage:32 -  enter in login page 
+2019-09-16 21:45:14 INFO  LoginPage:41 - login page passed 
+2019-09-16 21:45:31 INFO  CarFirstBookingPayArrival:48 - Enter to carBookinPayArrivalpage 
+2019-09-16 21:46:04 INFO  CarFirstBookingPayArrival:190 - Car booked by the payArrival 
+2019-09-16 21:46:04 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-16 21:46:38 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-16 21:46:48 INFO  CarBookPayNow:72 -  car two booked by paynow option  
+2019-09-16 21:46:55 INFO  CarBookPayNow:112 - Back to  homePage 
+2019-09-16 21:46:59 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-16 21:47:02 INFO  CarBookPayNow:148 - close the browser 
+2019-09-16 21:47:03 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:47:03 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:47:03 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:47:03 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:47:03 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-16 21:47:04 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-16 21:47:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-16 21:47:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-16 21:47:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-16 21:47:04 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 00:47:42 INFO  CarBookPayNow:148 - close the browser 
+2019-09-17 00:47:46 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 00:47:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 00:47:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 00:47:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 00:47:46 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 00:47:48 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 00:47:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 00:47:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 00:47:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 00:47:48 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 09:46:01 INFO  LoginPage:32 -  enter in login page 
+2019-09-17 09:46:07 INFO  LoginPage:41 - login page passed 
+2019-09-17 09:46:24 INFO  CarFirstBookingPayArrival:48 - Enter to carBookinPayArrivalpage 
+2019-09-17 09:46:57 INFO  CarFirstBookingPayArrival:190 - Car booked by the payArrival 
+2019-09-17 09:46:57 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-17 09:47:29 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-17 09:47:38 INFO  CarBookPayNow:72 -  car two booked by paynow option  
+2019-09-17 09:47:41 INFO  CarBookPayNow:112 - Back to  homePage 
+2019-09-17 09:47:44 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 09:47:51 INFO  CarBookPayNow:148 - close the browser 
+2019-09-17 09:47:51 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 09:47:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 09:47:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 09:47:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 09:47:51 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 09:47:52 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 09:47:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 09:47:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 09:47:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 09:47:52 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 09:50:03 INFO  LoginPage:32 -  enter in login page 
+2019-09-17 09:50:07 INFO  LoginPage:41 - login page passed 
+2019-09-17 09:50:18 INFO  CarFirstBookingPayArrival:48 - Enter to carBookinPayArrivalpage 
+2019-09-17 09:50:47 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-17 09:50:50 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-17 09:50:52 INFO  CarBookPayNow:148 - close the browser 
+2019-09-17 09:50:54 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 09:50:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 09:50:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 09:50:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 09:50:54 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 09:50:55 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 09:50:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 09:50:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 09:50:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 09:50:55 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 09:51:28 INFO  LoginPage:32 -  enter in login page 
+2019-09-17 09:51:32 INFO  LoginPage:41 - login page passed 
+2019-09-17 09:51:43 INFO  CarFirstBookingPayArrival:48 - Enter to carBookinPayArrivalpage 
+2019-09-17 09:52:13 INFO  CarFirstBookingPayArrival:190 - Car booked by the payArrival 
+2019-09-17 09:52:13 INFO  CarTwoBooking:40 - CarBooking Two starts 
+2019-09-17 09:52:44 INFO  CarBookPayNow:44 - CarBooked with PayNow  
+2019-09-17 09:52:51 INFO  CarBookPayNow:72 -  car two booked by paynow option  
+2019-09-17 09:52:54 INFO  CarBookPayNow:112 - Back to  homePage 
+2019-09-17 09:52:56 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 09:52:57 INFO  CarBookPayNow:148 - close the browser 
+2019-09-17 09:52:58 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 09:52:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 09:52:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 09:52:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 09:52:58 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 09:52:59 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 09:52:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 09:52:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 09:52:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 09:52:59 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 12:27:19 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 12:27:22 INFO  LoginPage:42 - login page passed 
+2019-09-17 12:27:34 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 12:28:06 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 12:28:06 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 12:28:36 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 12:28:44 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 12:28:47 INFO  CarBookPayNow:115 - Back to  homePage 
+2019-09-17 12:28:50 INFO  CarBookPayNow:140 - shows the  car in the Booking tab 
+2019-09-17 12:28:51 INFO  CarBookPayNow:151 - close the browser 
+2019-09-17 12:34:25 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 12:34:29 INFO  LoginPage:42 - login page passed 
+2019-09-17 12:34:41 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 12:35:10 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 12:35:10 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 12:35:41 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 12:35:49 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 12:35:52 INFO  CarBookPayNow:115 - Back to  homePage 
+2019-09-17 12:35:55 INFO  CarBookPayNow:140 - shows the  car in the Booking tab 
+2019-09-17 12:35:56 INFO  CarBookPayNow:151 - close the browser 
+2019-09-17 12:39:43 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 12:39:46 INFO  LoginPage:42 - login page passed 
+2019-09-17 12:39:57 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 12:40:37 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 12:40:40 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 12:41:16 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 12:41:19 INFO  LoginPage:42 - login page passed 
+2019-09-17 12:41:31 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 12:42:00 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 12:42:00 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 12:42:31 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 12:42:39 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 12:42:42 INFO  CarBookPayNow:115 - Back to  homePage 
+2019-09-17 12:42:45 INFO  CarBookPayNow:140 - shows the  car in the Booking tab 
+2019-09-17 12:42:46 INFO  CarBookPayNow:151 - close the browser 
+2019-09-17 12:46:35 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 12:46:38 INFO  LoginPage:42 - login page passed 
+2019-09-17 12:46:50 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 12:47:19 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 12:47:19 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 12:47:49 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 12:47:56 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 12:47:59 INFO  CarBookPayNow:115 - Back to  homePage 
+2019-09-17 12:48:03 INFO  CarBookPayNow:140 - shows the  car in the Booking tab 
+2019-09-17 12:48:05 INFO  CarBookPayNow:151 - close the browser 
+2019-09-17 13:00:16 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 13:00:20 INFO  LoginPage:42 - login page passed 
+2019-09-17 13:00:32 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 13:01:02 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 13:01:03 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 13:01:32 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 13:01:40 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 13:01:43 INFO  CarBookPayNow:115 - Back to  homePage 
+2019-09-17 13:01:46 INFO  CarBookPayNow:140 - shows the  car in the Booking tab 
+2019-09-17 13:01:47 INFO  CarBookPayNow:151 - close the browser 
+2019-09-17 13:13:48 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 13:13:52 INFO  LoginPage:42 - login page passed 
+2019-09-17 13:14:04 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 13:14:34 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 13:14:34 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 13:15:07 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 13:15:15 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 13:15:19 INFO  CarBookPayNow:115 - Back to  homePage 
+2019-09-17 13:15:21 INFO  CarBookPayNow:140 - shows the  car in the Booking tab 
+2019-09-17 13:15:23 INFO  CarBookPayNow:151 - close the browser 
+2019-09-17 13:23:59 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 13:24:03 INFO  LoginPage:42 - login page passed 
+2019-09-17 13:24:15 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 13:24:45 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 13:24:45 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 13:25:16 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 13:25:23 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 13:25:26 INFO  CarBookPayNow:115 - Back to  homePage 
+2019-09-17 13:25:29 INFO  CarBookPayNow:140 - shows the  car in the Booking tab 
+2019-09-17 13:25:30 INFO  CarBookPayNow:151 - close the browser 
+2019-09-17 14:32:38 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 14:32:41 INFO  LoginPage:42 - login page passed 
+2019-09-17 14:32:52 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 14:33:19 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 14:33:19 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 14:33:46 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 14:33:53 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 14:33:56 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 14:33:58 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 14:33:59 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 14:39:38 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 14:39:41 INFO  LoginPage:42 - login page passed 
+2019-09-17 14:39:52 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 14:40:18 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 14:40:18 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 14:40:47 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 14:40:54 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 14:40:57 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 14:40:59 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 14:41:00 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 14:46:03 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 14:46:07 INFO  LoginPage:42 - login page passed 
+2019-09-17 14:46:19 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 14:46:45 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 14:46:45 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 14:47:11 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 14:47:18 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 14:47:20 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 14:47:22 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 14:47:23 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 14:55:08 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 14:55:12 INFO  LoginPage:42 - login page passed 
+2019-09-17 14:55:22 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 14:55:48 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 14:55:48 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 14:56:17 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 14:56:24 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 14:56:27 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 14:56:29 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 14:56:30 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 14:56:30 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 14:56:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 14:56:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 14:56:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 14:56:30 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 14:56:30 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 14:56:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 14:56:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 14:56:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 14:56:30 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 14:58:51 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 14:58:54 INFO  LoginPage:42 - login page passed 
+2019-09-17 14:59:06 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 14:59:27 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 14:59:53 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:00:00 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 15:00:06 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 15:00:09 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 15:00:10 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 15:00:10 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:00:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:00:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:00:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:00:10 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:00:10 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:00:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:00:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:00:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:00:10 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:05:37 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:05:40 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:05:52 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:06:19 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:06:49 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:06:57 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 15:07:01 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 15:07:04 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 15:07:04 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:07:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:07:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:07:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:07:04 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:07:05 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:07:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:07:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:07:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:07:05 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:10:22 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:10:25 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:10:36 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:11:08 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 15:11:08 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:11:39 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:11:47 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 15:11:50 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 15:11:53 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 15:11:53 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:11:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:11:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:11:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:11:53 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:11:54 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:11:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:11:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:11:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:11:54 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:18:09 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:18:13 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:18:26 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:18:59 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 15:18:59 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:19:34 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:19:43 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 15:19:46 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 15:19:51 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 15:23:38 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:23:41 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:23:52 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:24:24 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 15:24:24 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:24:56 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:25:05 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 15:25:08 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 15:25:11 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 15:28:49 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:28:52 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:29:03 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:29:33 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 15:29:33 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:30:03 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:30:12 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 15:30:16 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 15:35:16 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:35:25 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:35:30 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:35:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:35:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:35:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:35:30 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:35:31 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:35:31 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:35:31 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:35:31 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:35:31 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:35:43 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:35:54 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:35:58 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:36:00 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:36:09 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:36:40 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 15:36:40 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:37:12 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:37:20 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 15:37:23 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 15:37:25 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 15:37:25 INFO  CarBookPayNow:145 - close the browser 
+2019-09-17 15:43:54 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:43:57 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:44:10 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:44:40 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 15:44:41 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:45:14 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:45:23 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 15:45:27 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 15:45:29 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 15:45:29 INFO  CarBookPayNow:145 - close the browser 
+2019-09-17 15:49:50 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:49:53 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:50:04 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:50:34 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:50:38 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:50:39 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:50:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:50:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:50:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:50:39 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:50:40 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:50:40 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:50:40 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:50:40 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:50:40 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:51:15 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:51:18 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:51:30 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:51:58 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 15:51:58 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:52:29 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:52:31 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:52:31 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:52:31 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:52:31 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:52:31 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:52:31 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:52:31 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:52:31 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:52:31 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:52:31 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:52:57 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:53:01 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:53:13 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:53:42 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 15:53:42 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:54:14 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:54:22 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 15:54:25 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 15:54:28 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 15:54:28 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:54:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:54:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:54:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:54:28 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:54:29 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 15:54:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 15:54:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 15:54:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 15:54:29 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 15:57:18 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 15:57:22 INFO  LoginPage:42 - login page passed 
+2019-09-17 15:57:33 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 15:58:03 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 15:58:03 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 15:58:35 INFO  CarBookPayNow:47 - CarBooked with PayNow  
+2019-09-17 15:58:43 INFO  CarBookPayNow:75 -  car two booked by paynow option  
+2019-09-17 15:58:46 INFO  CarBookPayNow:113 - Back to  homePage 
+2019-09-17 15:58:49 INFO  CarBookPayNow:136 - shows the  car in the Booking tab 
+2019-09-17 16:00:52 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 16:00:55 INFO  LoginPage:42 - login page passed 
+2019-09-17 16:01:07 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:01:36 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 16:01:36 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:02:09 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:02:17 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 16:02:20 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 16:02:23 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 16:02:24 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:02:24 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:02:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:02:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:02:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:02:24 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:02:24 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:02:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:02:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:02:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:02:24 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:04:04 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 16:04:07 INFO  LoginPage:42 - login page passed 
+2019-09-17 16:04:18 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:04:43 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:05:13 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:05:21 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 16:05:24 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 16:05:27 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 16:05:28 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:05:28 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:05:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:05:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:05:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:05:28 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:05:29 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:05:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:05:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:05:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:05:29 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:22:01 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 16:22:05 INFO  LoginPage:42 - login page passed 
+2019-09-17 16:22:16 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:22:41 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:23:16 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:23:25 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 16:23:28 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 16:23:31 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 16:23:32 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:23:32 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:23:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:23:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:23:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:23:32 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:23:33 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:23:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:23:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:23:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:23:33 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:26:33 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 16:26:37 INFO  LoginPage:42 - login page passed 
+2019-09-17 16:26:48 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:27:14 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:27:44 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:27:52 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 16:27:55 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 16:27:58 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 16:27:59 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:28:00 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:28:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:28:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:28:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:28:00 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:28:00 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:28:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:28:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:28:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:28:00 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:30:02 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 16:30:07 INFO  LoginPage:42 - login page passed 
+2019-09-17 16:30:21 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:30:48 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:31:21 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:31:28 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 16:31:32 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 16:31:34 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 16:31:36 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:31:36 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:31:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:31:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:31:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:31:36 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:31:36 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:31:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:31:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:31:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:31:36 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:40:27 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 16:40:30 INFO  LoginPage:42 - login page passed 
+2019-09-17 16:40:42 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:41:10 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:41:42 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:41:50 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 16:41:53 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 16:41:56 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 16:41:58 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:41:58 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:41:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:41:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:41:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:41:58 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:41:58 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:41:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:41:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:41:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:41:58 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:43:57 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 16:44:00 INFO  LoginPage:42 - login page passed 
+2019-09-17 16:44:13 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:44:33 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:44:36 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:44:38 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:44:38 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:44:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:44:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:44:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:44:38 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:44:39 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:44:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:44:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:44:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:44:39 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:45:03 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 16:45:08 INFO  LoginPage:42 - login page passed 
+2019-09-17 16:45:21 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:45:48 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:46:20 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:46:28 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 16:46:31 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 16:46:35 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 16:46:36 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:46:36 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:46:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:46:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:46:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:46:36 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:46:36 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:46:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:46:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:46:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:46:36 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:47:49 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 16:47:53 INFO  LoginPage:42 - login page passed 
+2019-09-17 16:48:04 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:48:28 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:48:59 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:49:07 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 16:49:10 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 16:49:13 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 16:49:15 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:49:15 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:49:15 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:49:15 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:49:15 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:49:15 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:50:36 INFO  LoginPage:33 -  enter in login page 
+2019-09-17 16:50:40 INFO  LoginPage:43 - login page passed 
+2019-09-17 16:50:52 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:51:21 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:51:25 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:51:27 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:51:27 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:51:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:51:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:51:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:51:27 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 16:54:58 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 16:55:02 INFO  LoginPage:43 - login page passed 
+2019-09-17 16:55:14 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 16:55:38 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 16:56:10 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 16:56:17 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 16:56:21 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 16:56:23 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 16:56:25 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 16:56:25 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 16:56:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 16:56:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 16:56:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 16:56:25 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:00:39 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 17:00:42 INFO  LoginPage:43 - login page passed 
+2019-09-17 17:00:54 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 17:01:19 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 17:01:49 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 17:01:57 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 17:02:00 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 17:02:03 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 17:02:04 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 17:06:30 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 17:06:34 INFO  LoginPage:43 - login page passed 
+2019-09-17 17:06:46 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 17:07:12 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 17:07:44 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 17:07:52 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 17:07:56 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 17:07:59 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 17:07:59 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 17:15:01 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 17:15:05 INFO  LoginPage:43 - login page passed 
+2019-09-17 17:15:18 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 17:15:59 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 17:16:31 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 17:16:39 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 17:16:42 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 17:16:45 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 17:16:45 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:16:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:16:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:16:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:16:45 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:16:46 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:16:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:16:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:16:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:16:46 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:18:20 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 17:18:23 INFO  LoginPage:43 - login page passed 
+2019-09-17 17:18:35 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 17:19:02 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 17:19:33 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 17:19:41 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 17:19:44 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 17:19:47 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 17:19:47 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:19:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:19:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:19:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:19:47 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:19:47 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:19:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:19:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:19:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:19:47 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:22:02 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 17:22:06 INFO  LoginPage:43 - login page passed 
+2019-09-17 17:22:17 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 17:22:42 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 17:23:13 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 17:23:21 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 17:23:24 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 17:23:26 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 17:23:28 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 17:23:28 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:23:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:23:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:23:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:23:28 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:23:28 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:23:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:23:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:23:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:23:28 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:24:32 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 17:24:36 INFO  LoginPage:43 - login page passed 
+2019-09-17 17:24:48 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 17:25:18 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 17:25:18 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 17:25:49 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 17:25:56 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 17:26:00 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 17:26:04 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 17:26:06 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 17:26:06 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:26:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:26:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:26:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:26:06 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:26:06 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:26:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:26:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:26:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:26:06 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:46:29 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 17:46:32 INFO  LoginPage:43 - login page passed 
+2019-09-17 17:48:34 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 17:48:37 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 17:48:40 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 17:48:42 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 17:48:42 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:48:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:48:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:48:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:48:42 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:48:43 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:48:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:48:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:48:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:48:43 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:50:27 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 17:50:31 INFO  LoginPage:43 - login page passed 
+2019-09-17 17:50:43 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 17:51:14 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 17:51:14 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 17:51:46 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 17:51:55 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 17:51:57 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 17:52:00 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 17:52:01 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 17:52:02 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:52:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:52:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:52:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:52:02 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:52:02 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:52:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:52:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:52:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:52:02 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:53:39 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 17:53:43 INFO  LoginPage:43 - login page passed 
+2019-09-17 17:53:55 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 17:54:28 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 17:54:28 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 17:55:02 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 17:55:11 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 17:55:14 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 17:55:18 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 17:55:22 INFO  CarBookPayNow:147 - close the browser 
+2019-09-17 17:55:22 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:55:22 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:55:22 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:55:22 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:55:22 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 17:55:23 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 17:55:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 17:55:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 17:55:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 17:55:23 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 18:28:57 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 18:29:01 INFO  LoginPage:43 - login page passed 
+2019-09-17 18:29:18 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 18:29:51 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 18:29:51 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 18:34:30 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 18:34:34 INFO  LoginPage:43 - login page passed 
+2019-09-17 18:34:46 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 18:35:09 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 18:35:12 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 18:35:58 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 18:36:02 INFO  LoginPage:43 - login page passed 
+2019-09-17 18:36:17 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 18:36:44 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 18:37:17 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 18:37:25 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 18:37:28 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 18:37:32 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 18:37:33 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 18:37:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 18:37:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 18:37:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 18:37:33 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 18:40:05 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 18:40:10 INFO  LoginPage:43 - login page passed 
+2019-09-17 18:40:24 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 18:40:55 INFO  CarFirstBookingPayArrival:186 - Car booked by the payArrival 
+2019-09-17 18:40:55 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 18:41:28 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 18:41:38 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 18:41:42 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 18:41:45 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 18:41:47 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 18:41:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 18:41:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 18:41:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 18:41:47 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 18:56:38 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 18:56:42 INFO  LoginPage:43 - login page passed 
+2019-09-17 18:56:54 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 18:57:25 INFO  CarFirstBookingPayArrival:191 - Car booked by the payArrival 
+2019-09-17 18:57:26 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 18:57:54 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 18:58:02 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 18:58:05 INFO  CarBookPayNow:114 - Back to  homePage 
+2019-09-17 18:58:07 INFO  CarBookPayNow:137 - shows the  car in the Booking tab 
+2019-09-17 18:58:09 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 18:58:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 18:58:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 18:58:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 18:58:09 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 19:15:40 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 19:15:44 INFO  LoginPage:43 - login page passed 
+2019-09-17 19:15:56 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 19:16:25 INFO  CarFirstBookingPayArrival:192 - Car booked by the payArrival 
+2019-09-17 19:16:25 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 19:16:55 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 19:17:02 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 19:17:05 INFO  CarBookPayNow:117 - Back to  homePage 
+2019-09-17 19:17:07 INFO  CarBookPayNow:140 - shows the  car in the Booking tab 
+2019-09-17 19:17:09 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 19:17:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 19:17:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 19:17:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 19:17:09 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-17 19:25:46 INFO  LoginPage:34 -  enter in login page 
+2019-09-17 19:25:50 INFO  LoginPage:43 - login page passed 
+2019-09-17 19:26:03 INFO  CarFirstBookingPayArrival:51 - Enter to carBookinPayArrivalpage 
+2019-09-17 19:26:31 INFO  CarFirstBookingPayArrival:169 - Car booked by the payArrival 
+2019-09-17 19:26:31 INFO  CarTwoBooking:43 - CarBooking Two starts 
+2019-09-17 19:26:59 INFO  CarBookPayNow:48 - CarBooked with PayNow  
+2019-09-17 19:27:06 INFO  CarBookPayNow:76 -  car two booked by paynow option  
+2019-09-17 19:27:08 INFO  CarBookPayNow:111 - Back to  homePage 
+2019-09-17 19:27:11 INFO  CarBookPayNow:134 - shows the  car in the Booking tab 
+2019-09-17 19:27:12 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-17 19:27:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-17 19:27:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-17 19:27:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-17 19:27:12 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohit.jaiswal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

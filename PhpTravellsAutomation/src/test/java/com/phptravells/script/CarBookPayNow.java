@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import com.atmecs.phptravel.constant.FindLocator;
@@ -39,6 +40,9 @@ public class CarBookPayNow extends Driver_Class {
 	@Test(priority = 4, dataProvider = "CartwoBookingpaynow", dataProviderClass = PhptravellDataProviderPayNow.class)
 	public void carTwoBookingPayNow(String fname, String lname, String cardno, String cvvno) {
 
+		
+		
+		logger=extent.startTest("cartwopaynow");
 		// System.out.println("m");
 		logge = Logger.getLogger(CarBookPayNow.class); // log4j implementation for storing the result
 		logge.info("CarBooked with PayNow  ");
@@ -96,17 +100,12 @@ public class CarBookPayNow extends Driver_Class {
 		WebElement todaydate2 = driver.findElement(By.xpath(loc.getlocator("todaydate2")));
 		String todaydate = todaydate2.getText();
 		System.out.println(todaydate);
-		
-		
+	  
+		car.verify(CarTwoBooking.strdepositnow2, inr_Strdepositnow2, "not matched");// total deposit verification 
+		car.verify(CarTwoBooking.strvat2, arrstrvat2, "not matched");// total vat verification 
+		car.verify(CarTwoBooking.srtamt2, arrstrtotal2, "not matched");// total amount verification 
 
-		car.verify(CarTwoBooking.strdepositnow2, inr_Strdepositnow2, "not matched");
-		car.verify(CarTwoBooking.strvat2, arrstrvat2, "not matched");
-		car.verify(CarTwoBooking.srtamt2, arrstrtotal2, "not matched");
-
-		car.verify(t, todaydate, "not correct");
-		
-		
-		
+		car.verify(t, todaydate, "not correct");// todays date verification 
 		CommonUtility.clickElement(driver, loc.getlocator("clickcaragain"));
 		logge = Logger.getLogger(CarBookPayNow.class); // log4j implementation for storing the result
 		logge.info("Back to  homePage ");
@@ -117,7 +116,7 @@ public class CarBookPayNow extends Driver_Class {
 		driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
 
 		Assert.assertTrue(driver.getTitle().equals("My Account"));
-		System.out.println("validate that the car is presnt  in  the booking tab");
+		System.out.println("validate that the car is presnt  in  the booking tab");// validate the tab for booking 
 
 		WebElement car1 = driver.findElement(By.xpath(loc.getlocator("car1namevalid")));// validate the first car name
 																						// in booking
@@ -127,9 +126,7 @@ public class CarBookPayNow extends Driver_Class {
 		WebElement car2 = driver.findElement(By.xpath(loc.getlocator("car2namevalid")));
 		String strcarmatch1 = car2.getText();
 		System.out.println(strcarmatch1);
-
 		CommonUtility carr = new CommonUtility();
-
 		carr.verify(CarFirstBookingPayArrival.strronecar, strcarmatch1.toUpperCase(), "not correct");
 		carr.verify(CarTwoBooking.strrtwocar, strcarmatch2.toUpperCase(), "not correct");
 
@@ -137,15 +134,5 @@ public class CarBookPayNow extends Driver_Class {
 		logge.info("shows the  car in the Booking tab ");
 	}
 
-	/**
-	 * quitdown method to quit the browser
-	 */
-	@AfterClass
-	public void quitDown() {
-
-		driver.quit();// close the browser_window
-		logge = Logger.getLogger(CarBookPayNow.class); // log4j implementation for storing the result
-		logge.info("close the browser ");
-	}
 
 }

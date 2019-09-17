@@ -13,6 +13,7 @@ import com.atmecs.phptravel.constant.FindLocator;
 import com.phptravells.Driver.Driver_Class;
 import com.phptravells.helper.CommonUtility;
 import com.phptravellsdataprovider.PhpTravellsLoginDataProvider;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class LoginPage extends Driver_Class {
 
@@ -28,6 +29,7 @@ public class LoginPage extends Driver_Class {
 	@Test(priority = 1, dataProvider = "logininput", dataProviderClass = PhpTravellsLoginDataProvider.class)
 	public void loginPage(String Emailid, String Password)
 	{
+		logger=extent.startTest("loginpassed");
 		logge=Logger.getLogger(LoginPage.class);  // log4j implementation for storing the result 
 		logge.info(" enter in login page ");
 		CommonUtility.clickElement(driver, "//button[text()='Got it!']");
@@ -39,6 +41,7 @@ public class LoginPage extends Driver_Class {
 		CommonUtility.clickElement(driver,loc.getlocator("Loginbtn"));
 		logge=Logger.getLogger(LoginPage.class);  // log4j implementation for storing the result 
 		logge.info("login page passed ");
+		logger.log(LogStatus.PASS, "mohit");
 		try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
@@ -64,8 +67,10 @@ public class LoginPage extends Driver_Class {
 		}
 		Actions action = new Actions(driver);
 		WebElement wb = driver.findElement(By.xpath(loc.getlocator("changecurrency")));
+		System.out.println(wb.getText());
 		action.moveToElement(wb).build().perform();
-		driver.findElement(By.xpath(loc.getlocator("changecurrencytoinr"))).click();
+		driver.findElement(By.linkText("INR")).click();
+		//driver.findElement(By.xpath(loc.getlocator("changecurrencytoinr"))).click();
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e1) {
@@ -74,10 +79,5 @@ public class LoginPage extends Driver_Class {
 		}
 
 	}
-	@AfterSuite
-	public void end() {
-		driver.quit();
-	}
-
 
 }
