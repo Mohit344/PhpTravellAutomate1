@@ -2,6 +2,7 @@ package com.phptravellsdataprovider;
 
 import org.testng.annotations.DataProvider;
 
+import com.atmecs.phptravel.constant.FileConstant;
 import com.phptravell.util.ProviderData;
 
 public class CarBookingTwoDataProvider {
@@ -12,7 +13,7 @@ public class CarBookingTwoDataProvider {
  */
 	@DataProvider(name = "CartwoBooking")
 	public Object[][] getData() {
-		ProviderData provideData = new ProviderData("./src/test/resources/Testdata/carbookingtwodataprovider.xlsx");
+		ProviderData provideData = new ProviderData(FileConstant.carbookingtwodataprovider);
 		Object[][] getData = provideData.provideData();
 		return getData;
 	}
@@ -22,7 +23,7 @@ public class CarBookingTwoDataProvider {
 	 */
 	public static void main(String[] args) {
 
-		Object[][] data = new CarBookingTwoDataProvider().getData();
+		Object[][] data = new CarBookingTwoDataProvider().getData();// cartwo booking data 
 		for (Object[] objects : data) {
 			String secsendkeyonpick = (String) objects[0];
 			String secsenddepartdate = (String) objects[1];

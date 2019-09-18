@@ -3,10 +3,10 @@
 <suite name="Suite"> 
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="com.phptravells.script.LoginPage"/>
-			<class name="com.phptravells.script.CarFirstBookingPayArrival"/>
-			<class name="com.phptravells.script.CarTwoBooking"/>
-			<class name="com.phptravells.script.CarBookPayNow"/>
+			<class name="com.phptravells.script.LoginPage"/>  <!-- loginpage class -->
+			<class name="com.phptravells.script.CarFirstBookingPayArrival"/>  <!--CarFirstBookingPayArrival class  -->
+			<class name="com.phptravells.script.CarTwoBooking"/>   <!--CarTwoBooking class -->
+			<class name="com.phptravells.script.CarBookPayNow"/>    <!--CarBookPayNow  class -->
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

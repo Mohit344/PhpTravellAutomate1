@@ -5,7 +5,11 @@ import java.util.Iterator;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
-
+/**
+ * it will provide the data from xlsx file.
+ * @author Mohit.Jaiswal
+ *
+ */
 
 
 public class ProviderData {

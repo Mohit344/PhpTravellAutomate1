@@ -41,7 +41,7 @@ public class LoginPage extends Driver_Class {
 		CommonUtility.clickElement(driver,loc.getlocator("Loginbtn"));
 		logge=Logger.getLogger(LoginPage.class);  // log4j implementation for storing the result 
 		logge.info("login page passed ");
-		logger.log(LogStatus.PASS, "mohit");
+		//	logger.log(LogStatus.PASS, "mohit");
 		try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {

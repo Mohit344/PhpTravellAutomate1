@@ -13,6 +13,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
+import com.atmecs.phptravel.constant.FileConstant;
 import com.phpautomation.extendreport.Extent;
 
 public class Driver_Class extends Extent {
@@ -24,19 +25,19 @@ public class Driver_Class extends Extent {
 	@BeforeTest
 	public void configSetup() throws IOException {
 
-		File file = new File("./src/test/resources/Testdata/phptravell_config");
+		File file = new File(FileConstant.config);
 		Properties promote = property_return(file);
 		switch (promote.getProperty("webdrivername")) {
 		case "chrome":
-			System.setProperty("webdriver.chrome.driver", "./libs/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", FileConstant.chromeexe);
 			driver = new ChromeDriver();
 			break;
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver", "./libs/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", FileConstant.firefoxexe);
 			driver = new FirefoxDriver();
 			break;
 		case "ie":
-			System.setProperty("webdriver.ie.driver","./libs/IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver",FileConstant.ieexe);
 			driver = new InternetExplorerDriver();
 			break;
 

@@ -2,6 +2,7 @@ package com.phptravellsdataprovider;
 
 import org.testng.annotations.DataProvider;
 
+import com.atmecs.phptravel.constant.FileConstant;
 import com.phptravell.util.ProviderData;
 
 public class PhptravellDataProviderPayNow {
@@ -13,7 +14,7 @@ public class PhptravellDataProviderPayNow {
 
 	@DataProvider(name = "CartwoBookingpaynow")
 	public Object[][] getData() {
-		ProviderData provideData = new ProviderData("./src/test/resources/Testdata/paynowDataProvider.xlsx");
+		ProviderData provideData = new ProviderData(FileConstant.paynowDataProvider);
 		Object[][] getData = provideData.provideData();
 		return getData;
 	}

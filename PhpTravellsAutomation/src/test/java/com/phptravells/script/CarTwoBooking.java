@@ -14,6 +14,7 @@ import com.atmecs.phptravel.constant.FindLocator;
 import com.phptravells.Driver.Driver_Class;
 import com.phptravells.helper.CommonUtility;
 import com.phptravellsdataprovider.CarBookingTwoDataProvider;
+import com.phptravellsvalidation.ValidationMethod;
 
 public class CarTwoBooking extends Driver_Class {
 	static String strrtwocar;
@@ -49,9 +50,10 @@ public class CarTwoBooking extends Driver_Class {
 		Actions action = new Actions(driver);
 		WebElement wb = driver.findElement(By.xpath(loc.getlocator("changecurrency")));
 		 action.moveToElement(wb).build().perform();
+		 driver.findElement(By.linkText("INR")).click();
 		
 	//	CommonUtility.clickElement(loc.getlocator("loc.inrcurrency.btn"));
-		driver.findElement(By.xpath(loc.getlocator("changecurrencytoinr"))).click();
+		//driver.findElement(By.xpath(loc.getlocator("changecurrencytoinr"))).click();
 		
       try {
 		Thread.sleep(5000);
@@ -115,7 +117,9 @@ public class CarTwoBooking extends Driver_Class {
 
 		WebElement ele = driver.findElement(By.xpath(loc.getlocator("car2location")));// car2location validation
 		String strr = ele.getText();
-		CommonUtility car = new CommonUtility();
+		//CommonUtility car = new CommonUtility();
+		ValidationMethod car = new ValidationMethod();
+		
 		WebElement pickdate = driver.findElement(By.xpath(loc.getlocator("car2pickdate")));// car2pickdate validation
 		String strr1 = pickdate.getText();
 	

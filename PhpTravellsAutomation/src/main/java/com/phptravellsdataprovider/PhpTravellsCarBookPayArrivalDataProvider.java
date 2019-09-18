@@ -1,14 +1,17 @@
 package com.phptravellsdataprovider;
 
+import java.io.File;
+
 import org.testng.annotations.DataProvider;
 
+import com.atmecs.phptravel.constant.FileConstant;
 import com.phptravell.util.ProviderData;
 
 public class PhpTravellsCarBookPayArrivalDataProvider {
 
 	@DataProvider(name = "CarBooking")
 	public Object[][] getData() {
-		ProviderData provideData = new ProviderData("./src/test/resources/Testdata/CarBookingtestdata.xlsx");
+		ProviderData provideData = new ProviderData(FileConstant.CarBookingtestdataPatArrival);
 		Object[][] getData = provideData.provideData();
 		return getData;
 	}

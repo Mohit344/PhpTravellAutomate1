@@ -2,8 +2,7 @@ package com.phptravellsdataprovider;
 
 import org.testng.annotations.DataProvider;
 
-
-
+import com.atmecs.phptravel.constant.FileConstant;
 import com.phptravell.util.ProviderData;
 
 public class PhpTravellsLoginDataProvider {
@@ -11,7 +10,7 @@ public class PhpTravellsLoginDataProvider {
 
 	@DataProvider(name = "logininput")
 	public Object[][] getData() {
-		ProviderData provideData = new ProviderData("./src/test/resources/Testdata/inputlogin.xlsx");
+		ProviderData provideData = new ProviderData(FileConstant.inputlogin);
 		Object[][] getData = provideData.provideData();
 		return getData;
 	}

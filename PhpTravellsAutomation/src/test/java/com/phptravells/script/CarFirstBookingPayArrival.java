@@ -21,6 +21,7 @@ import com.atmecs.phptravel.constant.FindLocator;
 import com.phptravells.Driver.Driver_Class;
 import com.phptravells.helper.CommonUtility;
 import com.phptravellsdataprovider.PhpTravellsCarBookPayArrivalDataProvider;
+import com.phptravellsvalidation.ValidationMethod;
 /**
  * 
  * @author Mohit.Jaiswal
@@ -105,7 +106,7 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		jss.executeScript("window.scrollBy(0,900)");
 		CommonUtility.clickElement(driver, loc.getlocator("confirmthisbooking"));
 		CommonUtility.clickElement(driver, loc.getlocator("click_on_payonarrival"));
-	   // CommonUtility.clickElement(driver,loc.getlocator("click_on_payonarrival"));// for firefox uncomment it .
+	 //  CommonUtility.clickElement(driver,loc.getlocator("click_on_payonarrival"));// for firefox uncomment it .
 
 		// driver.manage().timeouts().implicitlyWait(000, TimeUnit.SECONDS);
 		Alert alert = driver.switchTo().alert();
@@ -118,8 +119,8 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		WebElement ele = driver.findElement(By.xpath(loc.getlocator("getlocation")));// validate the pick location
 		String strr = ele.getText();
 		String date = ele.getAttribute("innerHTML");
-		CommonUtility car = new CommonUtility();
-
+		//CommonUtility car = new CommonUtility();
+		ValidationMethod car = new ValidationMethod();
 		WebElement pickdate = driver.findElement(By.xpath(loc.getlocator("getpickdate")));//validate the pickdate
 		String strr1 = pickdate.getText();
 		
@@ -162,8 +163,8 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		car.verify(strr1, senddepartdate, "date is not correct");// validation for departdate
 		car.verify(strr, sendkeyonpick, "placenotmatch");
 		car.verify(strdepositnow,inr_Strdepositnow , "not matched");// total deposit verifictaion 
-		car.verify(strvat, arrstrvat, "not matched");// total vat verication
-		car.verify(srtamt1, arrstrtotal, "not matched");//total amount veification
+		car.verify(strvat, arrstrvat, "not matched");// total vat verification
+		car.verify(srtamt1, arrstrtotal, "not matched");//total amount verification
 		car.verify(t, todaydate, "not correct");// today date verification
 		logge = Logger.getLogger(CarFirstBookingPayArrival.class); // log4j implementation for storing the result
 		logge.info("Car booked by the payArrival ");

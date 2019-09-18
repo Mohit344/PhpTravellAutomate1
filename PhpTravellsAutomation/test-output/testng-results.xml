@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="9" total="13" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="102864" started-at="2019-09-17T13:55:28Z" finished-at="2019-09-17T13:57:11Z">
+  <suite name="Suite" duration-ms="100635" started-at="2019-09-18T13:45:39Z" finished-at="2019-09-18T13:47:19Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="102864" started-at="2019-09-17T13:55:28Z" finished-at="2019-09-17T13:57:11Z">
+    <test name="Test" duration-ms="100635" started-at="2019-09-18T13:45:39Z" finished-at="2019-09-18T13:47:19Z">
       <class name="com.phptravells.script.CarTwoBooking">
-        <test-method status="PASS" signature="carTwoBooking(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravells.script.CarTwoBooking@4cf777e8]" name="carTwoBooking" duration-ms="27429" started-at="2019-09-17T13:56:31Z" data-provider="CartwoBooking" finished-at="2019-09-17T13:56:59Z">
+        <test-method status="PASS" signature="carTwoBooking(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravells.script.CarTwoBooking@4cf777e8]" name="carTwoBooking" duration-ms="27337" started-at="2019-09-18T13:46:40Z" data-provider="CartwoBooking" finished-at="2019-09-18T13:47:07Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carTwoBooking -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravells.script.CarTwoBooking@4cf777e8]" name="tearDown" is-config="true" duration-ms="343" started-at="2019-09-17T13:56:59Z" finished-at="2019-09-17T13:56:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravells.script.CarTwoBooking@4cf777e8]" name="tearDown" is-config="true" duration-ms="376" started-at="2019-09-18T13:47:07Z" finished-at="2019-09-18T13:47:07Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.phptravells.script.CarTwoBooking -->
       <class name="com.phptravells.script.LoginPage">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.phptravells.script.LoginPage@402a079c]" name="startReport" is-config="true" duration-ms="333" started-at="2019-09-17T13:55:28Z" finished-at="2019-09-17T13:55:28Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.phptravells.script.LoginPage@402a079c]" name="startReport" is-config="true" duration-ms="340" started-at="2019-09-18T13:45:38Z" finished-at="2019-09-18T13:45:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.phptravells.script.LoginPage@402a079c]" name="configSetup" is-config="true" duration-ms="16454" started-at="2019-09-17T13:55:28Z" finished-at="2019-09-17T13:55:45Z">
+        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.phptravells.script.LoginPage@402a079c]" name="configSetup" is-config="true" duration-ms="15375" started-at="2019-09-18T13:45:39Z" finished-at="2019-09-18T13:45:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configSetup -->
-        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String)[pri:1, instance:com.phptravells.script.LoginPage@402a079c]" name="loginPage" duration-ms="14454" started-at="2019-09-17T13:55:46Z" data-provider="logininput" finished-at="2019-09-17T13:56:01Z">
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String)[pri:1, instance:com.phptravells.script.LoginPage@402a079c]" name="loginPage" duration-ms="14513" started-at="2019-09-18T13:45:55Z" data-provider="logininput" finished-at="2019-09-18T13:46:10Z">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravells.script.LoginPage@402a079c]" name="tearDown" is-config="true" duration-ms="1927" started-at="2019-09-17T13:56:01Z" finished-at="2019-09-17T13:56:03Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravells.script.LoginPage@402a079c]" name="tearDown" is-config="true" duration-ms="1411" started-at="2019-09-18T13:46:10Z" finished-at="2019-09-18T13:46:11Z">
           <params>
             <param index="0">
               <value>
@@ -76,13 +76,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.phptravells.script.LoginPage@402a079c]" name="endReport" is-config="true" duration-ms="1452" started-at="2019-09-17T13:57:11Z" finished-at="2019-09-17T13:57:13Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.phptravells.script.LoginPage@402a079c]" name="endReport" is-config="true" duration-ms="1456" started-at="2019-09-18T13:47:19Z" finished-at="2019-09-18T13:47:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.phptravells.script.LoginPage -->
       <class name="com.phptravells.script.CarBookPayNow">
-        <test-method status="PASS" signature="carTwoBookingPayNow(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.phptravells.script.CarBookPayNow@2f686d1f]" name="carTwoBookingPayNow" duration-ms="11694" started-at="2019-09-17T13:56:59Z" data-provider="CartwoBookingpaynow" finished-at="2019-09-17T13:57:11Z">
+        <test-method status="PASS" signature="carTwoBookingPayNow(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.phptravells.script.CarBookPayNow@2f686d1f]" name="carTwoBookingPayNow" duration-ms="11501" started-at="2019-09-18T13:47:07Z" data-provider="CartwoBookingpaynow" finished-at="2019-09-18T13:47:19Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +108,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carTwoBookingPayNow -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravells.script.CarBookPayNow@2f686d1f]" name="tearDown" is-config="true" duration-ms="390" started-at="2019-09-17T13:57:11Z" finished-at="2019-09-17T13:57:11Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravells.script.CarBookPayNow@2f686d1f]" name="tearDown" is-config="true" duration-ms="365" started-at="2019-09-18T13:47:19Z" finished-at="2019-09-18T13:47:19Z">
           <params>
             <param index="0">
               <value>
@@ -121,7 +121,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.phptravells.script.CarBookPayNow -->
       <class name="com.phptravells.script.CarFirstBookingPayArrival">
-        <test-method status="PASS" signature="carBookinPayArrival(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.phptravells.script.CarFirstBookingPayArrival@59ec2012]" name="carBookinPayArrival" duration-ms="28278" started-at="2019-09-17T13:56:03Z" data-provider="CarBooking" finished-at="2019-09-17T13:56:31Z">
+        <test-method status="PASS" signature="carBookinPayArrival(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.phptravells.script.CarFirstBookingPayArrival@59ec2012]" name="carBookinPayArrival" duration-ms="28007" started-at="2019-09-18T13:46:11Z" data-provider="CarBooking" finished-at="2019-09-18T13:46:39Z">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carBookinPayArrival -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravells.script.CarFirstBookingPayArrival@59ec2012]" name="tearDown" is-config="true" duration-ms="345" started-at="2019-09-17T13:56:31Z" finished-at="2019-09-17T13:56:31Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravells.script.CarFirstBookingPayArrival@59ec2012]" name="tearDown" is-config="true" duration-ms="333" started-at="2019-09-18T13:46:39Z" finished-at="2019-09-18T13:46:40Z">
           <params>
             <param index="0">
               <value>

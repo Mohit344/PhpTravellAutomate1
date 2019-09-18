@@ -18,7 +18,7 @@ public class FindLocator {
 
 	public FindLocator() {
 		try {
-			phptravelsprop = ReadPropertiesFile.loadProperty("./src/test/resources/Locators/xpath.properties");
+			phptravelsprop = ReadPropertiesFile.loadProperty(FileConstant.findlocator);// all the xpath to locate element .
 		} catch (IOException e) {
 			e.getMessage();
 		}

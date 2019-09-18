@@ -16,7 +16,11 @@ import org.testng.annotations.BeforeSuite;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-
+/**
+ * Extent report for taking the screen shot when test fail and pass
+ * @author Mohit.Jaiswal
+ *
+ */
 public class Extent {
 		public static  WebDriver driver;
 		public static ExtentReports extent;
@@ -25,7 +29,7 @@ public class Extent {
 		@BeforeSuite
 		public void startReport() {
 
-			extent = new ExtentReports(System.getProperty("user.dir")+"/EXTENT.html", true);
+			extent = new ExtentReports(System.getProperty("user.dir")+"/EXTENT.html", true);// create the extentfile in which screenshot store
 			extent.loadConfig(new File(System.getProperty("user.dir")+"/extent-config.xml"));
 		}
 
@@ -55,7 +59,7 @@ public class Extent {
 				logger.log(LogStatus.SKIP, "Test Case SKIPPED IS " + result.getName());
 			} else if (result.getStatus() == ITestResult.SUCCESS) {
 				
-				logger.log(LogStatus.PASS, "Test Case PASSED IS " + result.getName());
+				logger.log(LogStatus.PASS, "Test Case PASSED IS " + result.getName());// test pass take the screen shot
 				String screenshotPath = Extent.getScreenshot(driver, result.getName());
 				logger.log(LogStatus.PASS, logger.addScreenCapture(screenshotPath));
 
@@ -66,7 +70,7 @@ public class Extent {
 
 		@AfterSuite
 		public void endReport() {
-			driver.quit();
+			driver.quit();// quit the webdriver
 			    extent.flush();
 		}
 

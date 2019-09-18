@@ -19,6 +19,7 @@ import com.atmecs.phptravel.constant.FindLocator;
 import com.phptravells.Driver.Driver_Class;
 import com.phptravells.helper.CommonUtility;
 import com.phptravellsdataprovider.PhptravellDataProviderPayNow;
+import com.phptravellsvalidation.ValidationMethod;
 
 /**
  * 
@@ -40,8 +41,8 @@ public class CarBookPayNow extends Driver_Class {
 	@Test(priority = 4, dataProvider = "CartwoBookingpaynow", dataProviderClass = PhptravellDataProviderPayNow.class)
 	public void carTwoBookingPayNow(String fname, String lname, String cardno, String cvvno) {
 
-		
-		
+
+
 		logger=extent.startTest("cartwopaynow");
 		// System.out.println("m");
 		logge = Logger.getLogger(CarBookPayNow.class); // log4j implementation for storing the result
@@ -91,7 +92,9 @@ public class CarBookPayNow extends Driver_Class {
 		System.out.println(arrstrtotal2);
 		arrstrtotal2 = CommonUtility.removeINR(arrstrtotal2);
 		System.out.println(arrstrtotal2);
-		CommonUtility car = new CommonUtility();
+		//CommonUtility car = new CommonUtility();
+		ValidationMethod car =new ValidationMethod();
+
 		LocalDate date = LocalDate.now();
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		String t=date.format(formatter);
@@ -100,12 +103,12 @@ public class CarBookPayNow extends Driver_Class {
 		WebElement todaydate2 = driver.findElement(By.xpath(loc.getlocator("todaydate2")));
 		String todaydate = todaydate2.getText();
 		System.out.println(todaydate);
-	  
+
 		car.verify(CarTwoBooking.strdepositnow2, inr_Strdepositnow2, "not matched");// total deposit verification 
 		car.verify(CarTwoBooking.strvat2, arrstrvat2, "not matched");// total vat verification 
 		car.verify(CarTwoBooking.srtamt2, arrstrtotal2, "not matched");// total amount verification 
-
 		car.verify(t, todaydate, "not correct");// todays date verification 
+
 		CommonUtility.clickElement(driver, loc.getlocator("clickcaragain"));
 		logge = Logger.getLogger(CarBookPayNow.class); // log4j implementation for storing the result
 		logge.info("Back to  homePage ");
@@ -119,14 +122,15 @@ public class CarBookPayNow extends Driver_Class {
 		System.out.println("validate that the car is presnt  in  the booking tab");// validate the tab for booking 
 
 		WebElement car1 = driver.findElement(By.xpath(loc.getlocator("car1namevalid")));// validate the first car name
-																						// in booking
+		// in booking
 		String strcarmatch2 = car1.getText();
 		System.out.println(strcarmatch2);
 
 		WebElement car2 = driver.findElement(By.xpath(loc.getlocator("car2namevalid")));
 		String strcarmatch1 = car2.getText();
 		System.out.println(strcarmatch1);
-		CommonUtility carr = new CommonUtility();
+		//CommonUtility carr = new CommonUtility();
+		ValidationMethod carr = new ValidationMethod();
 		carr.verify(CarFirstBookingPayArrival.strronecar, strcarmatch1.toUpperCase(), "not correct");
 		carr.verify(CarTwoBooking.strrtwocar, strcarmatch2.toUpperCase(), "not correct");
 

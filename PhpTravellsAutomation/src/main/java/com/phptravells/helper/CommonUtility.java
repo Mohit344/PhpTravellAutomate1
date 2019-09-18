@@ -227,6 +227,7 @@ public class CommonUtility {
 		}
 	}
 
+
 	/**
 	 * 
 	 * @param actual
@@ -243,9 +244,6 @@ public class CommonUtility {
 		} catch (AssertionError e) {
 			System.out.println(message);
 		}
-
-
-
 	}
 	public static String removeINR(String cost) {
 		cost=cost.replace("INR ", "");
@@ -254,3 +252,4 @@ public class CommonUtility {
 
 
 }
+
