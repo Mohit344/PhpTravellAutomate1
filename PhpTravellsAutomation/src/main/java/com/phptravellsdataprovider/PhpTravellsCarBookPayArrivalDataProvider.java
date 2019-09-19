@@ -1,6 +1,5 @@
 package com.phptravellsdataprovider;
 
-import java.io.File;
 
 import org.testng.annotations.DataProvider;
 

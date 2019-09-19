@@ -11,12 +11,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import com.atmecs.phptravel.constant.FindLocator;
-import com.phptravells.Driver.Driver_Class;
+import com.phptravells.driver.Driver_Class;
 import com.phptravells.helper.CommonUtility;
 import com.phptravellsdataprovider.PhptravellDataProviderPayNow;
 import com.phptravellsvalidation.ValidationMethod;

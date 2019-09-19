@@ -4,21 +4,16 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.atmecs.phptravel.constant.FindLocator;
-
-import com.phptravells.Driver.Driver_Class;
+import com.phptravells.driver.Driver_Class;
 import com.phptravells.helper.CommonUtility;
 import com.phptravellsdataprovider.PhpTravellsCarBookPayArrivalDataProvider;
 import com.phptravellsvalidation.ValidationMethod;
@@ -118,7 +113,7 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		System.out.println("before");
 		WebElement ele = driver.findElement(By.xpath(loc.getlocator("getlocation")));// validate the pick location
 		String strr = ele.getText();
-		String date = ele.getAttribute("innerHTML");
+		//String date = ele.getAttribute("innerHTML");
 		//CommonUtility car = new CommonUtility();
 		ValidationMethod car = new ValidationMethod();
 		WebElement pickdate = driver.findElement(By.xpath(loc.getlocator("getpickdate")));//validate the pickdate

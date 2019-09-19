@@ -6,14 +6,12 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 
 import com.atmecs.phptravel.constant.FindLocator;
-import com.phptravells.Driver.Driver_Class;
+import com.phptravells.driver.Driver_Class;
 import com.phptravells.helper.CommonUtility;
 import com.phptravellsdataprovider.PhpTravellsLoginDataProvider;
-import com.relevantcodes.extentreports.LogStatus;
 
 public class LoginPage extends Driver_Class {
 

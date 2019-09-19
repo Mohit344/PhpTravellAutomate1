@@ -1,8 +1,5 @@
 package com.phptravells.script;
 
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -11,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import com.atmecs.phptravel.constant.FindLocator;
-import com.phptravells.Driver.Driver_Class;
+import com.phptravells.driver.Driver_Class;
 import com.phptravells.helper.CommonUtility;
 import com.phptravellsdataprovider.CarBookingTwoDataProvider;
 import com.phptravellsvalidation.ValidationMethod;
@@ -21,11 +18,8 @@ public class CarTwoBooking extends Driver_Class {
 	static String srtamt2;
 	static String strdepositnow2;
 	static String strvat2;
-	
-
 	Logger logge;
 	FindLocator loc = new FindLocator();
-
 	/**
 	 * 
 	 * @param secsendkeyonpick
@@ -33,7 +27,6 @@ public class CarTwoBooking extends Driver_Class {
 	 * @param secsendkeydrop
 	 * @throws InterruptedException
 	 */
-
 	@Test(priority = 3, dataProvider = "CartwoBooking", dataProviderClass = CarBookingTwoDataProvider.class)
 	public void carTwoBooking(String secsendkeyonpick, String secsenddepartdate, String secsendkeydrop)
 			throws InterruptedException {
@@ -42,27 +35,18 @@ public class CarTwoBooking extends Driver_Class {
 		
 		logge = Logger.getLogger(CarTwoBooking.class); // log4j implementation for storing the result
 		logge.info("CarBooking Two starts ");
-	
-    
-		//System.out.println("mohit");
 		Thread.sleep(3000);
 		CommonUtility.clickElement(driver, loc.getlocator("clickcaragain"));
 		Actions action = new Actions(driver);
 		WebElement wb = driver.findElement(By.xpath(loc.getlocator("changecurrency")));
 		 action.moveToElement(wb).build().perform();
 		 driver.findElement(By.linkText("INR")).click();
-		
-	//	CommonUtility.clickElement(loc.getlocator("loc.inrcurrency.btn"));
-		//driver.findElement(By.xpath(loc.getlocator("changecurrencytoinr"))).click();
-		
       try {
 		Thread.sleep(5000);
 	} catch (InterruptedException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-
-		
 		CommonUtility.clickElement(driver, loc.getlocator("clickpick1"));
 		Thread.sleep(1000);
 		CommonUtility.clickAndSendText(driver, loc.getlocator("sendkeyonpick"), 3, secsendkeyonpick);
@@ -122,10 +106,9 @@ public class CarTwoBooking extends Driver_Class {
 		
 		WebElement pickdate = driver.findElement(By.xpath(loc.getlocator("car2pickdate")));// car2pickdate validation
 		String strr1 = pickdate.getText();
-	
+
 		WebElement dropdate = driver.findElement(By.xpath(loc.getlocator("car2drpdate")));
 		String strr2 = dropdate.getText();
-
 		WebElement strrtwopicktmm = driver.findElement(By.xpath(loc.getlocator("car2picktm"))); // car2picktm validation
 		String strrtwopicktmm1 = strrtwopicktmm.getText();
 		WebElement strrdroptmm = driver.findElement(By.xpath(loc.getlocator("car2drptm")));

@@ -6,19 +6,19 @@
       <class name="com.phptravells.script.CarTwoBooking">
         <methods>
           <include name="carTwoBooking" invocation-numbers="0"/>
+          <include name="configSetup"/>
           <include name="tearDown"/>
           <include name="startReport"/>
           <include name="endReport"/>
-          <include name="configSetup"/>
         </methods>
       </class> <!-- com.phptravells.script.CarTwoBooking -->
       <class name="com.phptravells.script.CarBookPayNow">
         <methods>
+          <include name="configSetup"/>
           <include name="carTwoBookingPayNow" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="startReport"/>
           <include name="endReport"/>
-          <include name="configSetup"/>
         </methods>
       </class> <!-- com.phptravells.script.CarBookPayNow -->
     </classes>
