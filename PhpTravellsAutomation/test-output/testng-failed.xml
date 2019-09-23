@@ -12,6 +12,15 @@
           <include name="endReport"/>
         </methods>
       </class> <!-- com.phptravells.script.CarTwoBooking -->
+      <class name="com.phptravells.script.CarFirstBookingPayArrival">
+        <methods>
+          <include name="configSetup"/>
+          <include name="carBookinPayArrival" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.phptravells.script.CarFirstBookingPayArrival -->
       <class name="com.phptravells.script.CarBookPayNow">
         <methods>
           <include name="configSetup"/>

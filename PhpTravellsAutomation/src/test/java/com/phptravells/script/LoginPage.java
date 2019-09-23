@@ -30,7 +30,14 @@ public class LoginPage extends Driver_Class {
 		logger=extent.startTest("loginpassed");
 		logge=Logger.getLogger(LoginPage.class);  // log4j implementation for storing the result 
 		logge.info(" enter in login page ");
-		CommonUtility.clickElement(driver, "//button[text()='Got it!']");
+		CommonUtility.clickElement(driver, loc.getlocator("removefrome"));
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		CommonUtility.clickElement(driver, loc.getlocator("gotitcokie"));
 		CommonUtility.clickElement(driver,loc.getlocator("My_Account"))	;
 		CommonUtility.clickElement(driver,loc.getlocator("Login"));
 		driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);

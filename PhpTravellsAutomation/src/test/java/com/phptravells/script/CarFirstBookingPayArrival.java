@@ -101,7 +101,7 @@ public class CarFirstBookingPayArrival extends Driver_Class {
 		jss.executeScript("window.scrollBy(0,900)");
 		CommonUtility.clickElement(driver, loc.getlocator("confirmthisbooking"));
 		CommonUtility.clickElement(driver, loc.getlocator("click_on_payonarrival"));
-	 //  CommonUtility.clickElement(driver,loc.getlocator("click_on_payonarrival"));// for firefox uncomment it .
+	   CommonUtility.clickElement(driver,loc.getlocator("click_on_payonarrival"));// for firefox uncomment it .
 
 		// driver.manage().timeouts().implicitlyWait(000, TimeUnit.SECONDS);
 		Alert alert = driver.switchTo().alert();
