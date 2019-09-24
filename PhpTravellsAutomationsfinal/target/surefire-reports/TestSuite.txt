@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 120.619 s <<< FAILURE! - in TestSuite
+carBookinPayArrival(com.phptravells.script.CarFirstBookingPayArrival)  Time elapsed: 26.159 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Are you sure you want to pay at arrival?}
+  (Session info: chrome=77.0.3865.90): Are you sure you want to pay at arrival?
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ATMECSINLT-065', ip: '55.55.52.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\MOHIT~1.JAI\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 87bf01bd8738740161167bf6b4201f00
+*** Element info: {Using=xpath, value=//button[text()='Pay on Arrival']}
+	at com.phptravells.script.CarFirstBookingPayArrival.carBookinPayArrival(CarFirstBookingPayArrival.java:48)
+
